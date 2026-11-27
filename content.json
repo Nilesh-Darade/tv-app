@@ -1,0 +1,130 @@
+{
+  "categories": {
+    "quote": {
+      "label": "Think about it",
+      "accent": "#ffc857",
+      "items": [
+        {"t": "Practice makes perfect.", "d": "Things get easier the more you try them.", "a": "English proverb"},
+        {"t": "Look before you leap.", "d": "Think about what could happen before you act.", "a": "English proverb"},
+        {"t": "Two heads are better than one.", "d": "A friend might spot an answer you missed.", "a": "English proverb"},
+        {"t": "Many hands make light work.", "d": "Tidying a room is easier when everyone helps.", "a": "English proverb"},
+        {"t": "Better late than never.", "d": "You can still make a start, even if you meant to start sooner.", "a": "English proverb"},
+        {"t": "Don't count your chickens before they hatch.", "d": "Wait to see what happens before you count on it.", "a": "English proverb"},
+        {"t": "Don't put all your eggs in one basket.", "d": "Keep another plan ready in case your first one fails.", "a": "English proverb"},
+        {"t": "Actions speak louder than words.", "d": "Helping someone means more than just saying you will.", "a": "English proverb"},
+        {"t": "Every cloud has a silver lining.", "d": "Even a hard day can hold something good.", "a": "English proverb"},
+        {"t": "A stitch in time saves nine.", "d": "Fix a small tear now, before it gets bigger.", "a": "English proverb"},
+        {"t": "Haste makes waste.", "d": "When you rush, mistakes can make you do the job twice.", "a": "English proverb"},
+        {"t": "Out of sight, out of mind.", "d": "It's easy to forget things you don't see often.", "a": "English proverb"},
+        {"t": "Easy come, easy go.", "d": "Things gained quickly can disappear quickly, too.", "a": "English proverb"},
+        {"t": "Too many cooks spoil the broth.", "d": "A shared job can get messy when everyone tries to be in charge.", "a": "English proverb"},
+        {"t": "All that glitters is not gold.", "d": "Something can look fine without being as good as it seems.", "a": "English proverb"}
+      ]
+    },
+    "physics": {
+      "label": "Physics",
+      "accent": "#5ccfee",
+      "items": [
+        {"t": "Gravity pulls things toward Earth.", "d": "When you drop a sock, gravity pulls it to the floor."},
+        {"t": "Friction can slow things that slide.", "d": "A book pushed across a table slows down as it rubs against the table."},
+        {"t": "Moving things tend to keep moving.", "d": "When the car stops, your seat belt stops you from moving forward."},
+        {"t": "The same push speeds up a light cart more than a heavy cart.", "d": "With an equal push, an empty shopping cart speeds up faster than a full one."},
+        {"t": "A push is met by an equal push in the other direction.", "d": "Push water backward with your hands as you swim. The water pushes you forward."},
+        {"t": "Light bounces off a mirror.", "d": "When you brush your teeth, light from your face bounces off the mirror into your eyes."},
+        {"t": "Light can bend when it goes from water into air.", "d": "A straw in a clear glass of water can look bent at the water line."},
+        {"t": "Sounds start with something shaking back and forth.", "d": "Pluck a guitar string and watch it shake as it makes a sound."},
+        {"t": "Faster shaking makes a higher note.", "d": "On a guitar, pressing a string closer to the bridge leaves less string to shake and makes a higher note."},
+        {"t": "Heat moves from warmer things to cooler things.", "d": "A metal spoon warms up when you leave it in hot soup."},
+        {"t": "Water pushes upward on things in it.", "d": "A beach ball pops up when you let it go underwater."},
+        {"t": "A push farther from a pivot can turn something more easily.", "d": "A door swings open more easily when you push near the handle than when you push near the hinges."},
+        {"t": "Two north poles of magnets push each other away.", "d": "Bring the north ends of two toy bar magnets together and feel them push apart."},
+        {"t": "Electric current needs a complete path to keep flowing in a simple circuit.", "d": "A flashlight switch breaks the path when you turn it off."},
+        {"t": "Rubbing materials together can build up an electric charge.", "d": "Rub a balloon on your hair. The balloon can then pull your hair toward it."}
+      ]
+    },
+    "math": {
+      "label": "Math",
+      "accent": "#a8e07a",
+      "items": [
+        {"t": "To triple a number, add three copies of it.", "d": "Triple 7 is 7 + 7 + 7 = 21."},
+        {"t": "Adding two odd numbers gives an even number.", "d": "5 + 7 = 12. You can split 12 into two equal groups of 6."},
+        {"t": "Swap the numbers you multiply and the answer stays the same.", "d": "3 rows of 4 dots make 12 dots. Turn the page sideways and you get 4 rows of 3, still 12."},
+        {"t": "To multiply by 9, multiply by 10 and take away one copy.", "d": "9 × 7 = 10 × 7 - 7 = 70 - 7 = 63."},
+        {"t": "To multiply a whole number by 5, multiply by 10 and halve the result.", "d": "For 5 × 14, first find 10 × 14 = 140. Half of 140 is 70."},
+        {"t": "A whole number is divisible by 3 if its digits add up to a multiple of 3.", "d": "For 42, add 4 + 2 = 6. Since 6 is a multiple of 3, 42 divides by 3 exactly. 42 ÷ 3 = 14."},
+        {"t": "Fractions stay equal when you multiply the top and bottom by the same nonzero number.", "d": "Multiply the 1 and 2 in 1/2 by 3. You get 3/6, which is still half."},
+        {"t": "To find a quarter of something, divide it into four equal parts.", "d": "A quarter of 20 grapes is 20 ÷ 4 = 5 grapes."},
+        {"t": "A rectangle's area is its length times its width.", "d": "A 6 cm by 4 cm rectangle has area 6 × 4 = 24 square centimeters."},
+        {"t": "For a shape with straight sides, add the side lengths to find the distance around it.", "d": "A rectangle with sides 8 cm and 3 cm is 8 + 3 + 8 + 3 = 22 cm around."},
+        {"t": "The three angles of a triangle on flat paper always add up to 180°.", "d": "With angles of 90° and 35°, the last angle is 180° - 90° - 35° = 55°."},
+        {"t": "A circle's diameter is twice its radius.", "d": "If it's 4 cm from the center to the edge, it's 2 × 4 = 8 cm all the way across the center."},
+        {"t": "A prime number has exactly two positive factors: 1 and itself.", "d": "Only 1 and 7 divide 7 with no leftover, so 7 is prime."},
+        {"t": "An average is the amount everyone would get if the total were shared equally.", "d": "Three friends have 2, 4 and 9 stickers. That's 15 stickers, so the average is 15 ÷ 3 = 5."},
+        {"t": "To find 10 percent of a number, divide it by 10.", "d": "10 percent of 80 is 80 ÷ 10 = 8."}
+      ]
+    },
+    "animals": {
+      "label": "Animals and birds",
+      "accent": "#ff93b4",
+      "items": [
+        {"t": "Penguins use their wings like flippers.", "d": "They flap them underwater to swim after food."},
+        {"t": "American flamingos get their pink color from their food.", "d": "Tiny algae and small animals they eat contain pigments, which give their feathers color."},
+        {"t": "Bats are the only mammals that can fly by flapping their wings.", "d": "Flying squirrels glide, like a paper plane."},
+        {"t": "Dolphins come to the surface for air.", "d": "They breathe through a blowhole on top of the head."},
+        {"t": "Male humpback whales sing long songs.", "d": "Their songs repeat groups of sounds and can be heard underwater."},
+        {"t": "An elephant uses its trunk to pick up food.", "d": "Its trunk is a long nose that can grab a meal and carry it to its mouth."},
+        {"t": "A butterfly starts life as an egg.", "d": "It hatches as a caterpillar, then changes inside a chrysalis before coming out as a butterfly."},
+        {"t": "Spiders have eight legs. Insects have six.", "d": "A ladybug may look a bit like a tiny spider, but it has six legs."},
+        {"t": "Female sea turtles lay their eggs on land.", "d": "They dig a nest in the sand and cover the eggs before going back to sea."},
+        {"t": "A kangaroo joey finishes much of its early growth in a pouch.", "d": "The newborn climbs into its mother's pouch, where it drinks milk."},
+        {"t": "Crocodiles lay eggs and can guard their nests.", "d": "A mother crocodile may even carry her hatchlings to water in her mouth."},
+        {"t": "Beavers build dams from sticks, mud and other things they find.", "d": "A dam slows a stream and can make a pond behind it."},
+        {"t": "An ostrich can run fast, but it cannot fly.", "d": "It has long, strong legs that help it take big steps."},
+        {"t": "A male seahorse carries the young before they are born.", "d": "The female puts her eggs into a pouch on the male. The young grow there until he gives birth."},
+        {"t": "Polar bears have black skin under their fur.", "d": "Their fur looks white, which helps them blend in with snow and ice."}
+      ]
+    },
+    "space": {
+      "label": "Space",
+      "accent": "#b9a6ff",
+      "items": [
+        {"t": "The Sun is a star.", "d": "It looks much bigger than other stars because it is much closer to Earth."},
+        {"t": "Sunlight takes about 8 minutes to reach Earth.", "d": "In empty space, light travels about 300,000 kilometers in one second."},
+        {"t": "Earth takes about a year to go around the Sun.", "d": "Earth spins as it travels, so different places get daylight at different times."},
+        {"t": "The Moon shines by reflecting sunlight.", "d": "As the Moon goes around Earth, we see different amounts of its sunny side."},
+        {"t": "The Moon spins once in about the same time it takes to go around Earth.", "d": "That is why we see nearly the same side of the Moon from Earth all the time."},
+        {"t": "A solar eclipse happens when the Moon blocks some of the Sun's light from reaching Earth.", "d": "People in the Moon's shadow can see the Sun partly or fully covered."},
+        {"t": "Mercury is the closest planet to the Sun.", "d": "It takes about 88 Earth days to go around the Sun once."},
+        {"t": "Venus takes longer to spin once than it takes to go around the Sun.", "d": "One spin takes about 243 Earth days. One trip around the Sun takes about 225."},
+        {"t": "Mars owes much of its red color to rusty dust.", "d": "Some of the iron in its rocks and dust has reacted with oxygen, like rust on an old bike."},
+        {"t": "Mars has two small moons.", "d": "Their names are Phobos and Deimos."},
+        {"t": "Jupiter is the biggest planet in our solar system.", "d": "The Great Red Spot you can see in pictures of Jupiter is a huge storm."},
+        {"t": "Saturn's rings are made mostly of pieces of ice.", "d": "The pieces stay in motion, circling Saturn."},
+        {"t": "Uranus spins almost on its side.", "d": "Picture a spinning top that keeps spinning while tipped almost all the way over."},
+        {"t": "Neptune takes about 165 Earth years to circle the Sun.", "d": "It is the farthest of the eight planets from the Sun."},
+        {"t": "We live in a galaxy called the Milky Way.", "d": "A galaxy is a huge group of stars, gas and dust held together by gravity."}
+      ]
+    },
+    "learn": {
+      "label": "Did you know?",
+      "accent": "#ffad66",
+      "items": [
+        {"t": "Your smallest bones are inside your ears.", "d": "These tiny bones help pass vibrations from your eardrum to the inner ear."},
+        {"t": "Your pupil is the opening in the middle of your eye.", "d": "It usually gets bigger in dim light to let more light in."},
+        {"t": "Your heart is a pump made of muscle.", "d": "Every beat pushes blood through your body."},
+        {"t": "When you breathe in, oxygen from the air can pass into your blood.", "d": "It passes through the walls of tiny air sacs in your lungs."},
+        {"t": "Your tongue and nose work together when you taste food.", "d": "When you have a stuffy nose, food may seem to have less flavor."},
+        {"t": "The equator is an imaginary line around the middle of Earth.", "d": "It divides Earth into the Northern Hemisphere and the Southern Hemisphere."},
+        {"t": "The Pacific Ocean is Earth's largest ocean.", "d": "It lies between Asia and Australia on one side and the Americas on the other."},
+        {"t": "The South Pole sits in Antarctica.", "d": "At the South Pole, a thick sheet of ice covers the land."},
+        {"t": "A map scale helps you work out real distances.", "d": "If 1 centimeter on a map stands for 1 kilometer, 3 centimeters stand for 3 kilometers."},
+        {"t": "An island is a piece of land surrounded by water.", "d": "An island can sit in a lake or river as well as in the ocean."},
+        {"t": "Word of the day: nocturnal.", "d": "A nocturnal animal is active at night. A barn owl often hunts after dark."},
+        {"t": "Word of the day: peninsula.", "d": "A peninsula is land with water around most of it. Much of Florida sits between the Gulf and the Atlantic Ocean."},
+        {"t": "Word of the day: palindrome.", "d": "A palindrome reads the same forward and backward. Try it with the word level."},
+        {"t": "Word of the day: transparent.", "d": "If something is transparent, you can see clearly through it, like through clean window glass."},
+        {"t": "Word of the day: migrate.", "d": "To migrate is to move from one place to another. Many birds do this as the seasons change."}
+      ]
+    }
+  }
+}
