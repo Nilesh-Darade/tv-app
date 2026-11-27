@@ -24,7 +24,7 @@ Bright Minds shows short learning slides in the LG C1 OLED TV browser.
 
 Append options to the printed URL. Join multiple options with `&`, as in `?cats=space,math&pace=1.5&sleep=2`.
 
-- `?cats=space,math` shows only Space and Math. Use any of `quote`, `physics`, `math`, `animals`, `space`, and `learn`.
+- `?cats=space,math` shows only Space and Math. Use any of `quote`, `inspire`, `physics`, `chemistry`, `math`, `astronomy`, `space`, `animals`, and `learn`.
 - `?pace=1.5` starts at 1.5 times the normal display duration. Without this option, the app uses your saved pace or starts at 1.
 - `?sleep=2` sets the idle timeout to 2 hours. The screen fades to black after 3 hours by default.
 
@@ -36,6 +36,6 @@ Open `content.json` and find the category under `categories`. Edit an existing e
 {"t": "A square has four equal sides.", "d": "If each side is 3 cm long, the perimeter is 12 cm."}
 ```
 
-Each slide needs non-empty main text in `t`. Use `d` for an optional detail and `a` for a quote's author or proverb attribution. Save the file and reload Bright Minds on the TV.
+Each slide needs non-empty main text in `t`. Use `d` for an optional detail and `a` for a quote's author or proverb attribution. Add `"style": "quote"` to a category to show its slides in the italic quote style. Save the file and reload Bright Minds on the TV.
 
 When you're done, turn the TV off with the remote so the OLED can run its pixel refresh.
