@@ -90,7 +90,9 @@ class StaticChecks(unittest.TestCase):
                 with self.subTest(category=key, item=index):
                     self.assertIsInstance(item.get("t"), str)
                     self.assertTrue(item["t"].strip())
-                    self.assertTrue(set(item) <= {"t", "d", "a"})
+                    self.assertTrue(set(item) <= {"t", "d", "a", "s"})
+                    if "s" in item:
+                        self.assertRegex(item["s"], r"^https://\S+$")
                     for field in set(item) - {"t"}:
                         self.assertIsInstance(item[field], str)
                     if key in DETAIL_KEYS:
