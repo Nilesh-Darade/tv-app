@@ -306,15 +306,33 @@ test("TC-tv-app-016: rejected optional APIs and unavailable storage leave the sl
   assert.notEqual(app.text(), before);
 });
 
-test("TC-tv-app-017: automatic playback resumes when the paused display wakes", async () => {
-  const app = await launch({ search: "?sleep=0.005&cats=space" });
-  app.key(13);
-  assert.equal(app.stage.find("toast").textContent, "Paused");
-  app.advance(18900);
-  assert.equal(app.stage.children.length, 0);
-  app.key(39);
-  const resumed = app.text();
-  assert.ok(resumed, "waking should show a slide");
-  app.advance(4900);
-  assert.notEqual(app.text(), resumed, "the next slide should appear after 4 seconds plus the fade");
+test("TC-tv-app-017: automatic playback resumes when the paused display wakes", async (t) => {
+  for (const wakeInput of ["Enter", "click"]) {
+    await t.test(wakeInput, async () => {
+      const app = await launch({ search: "?sleep=0.005&cats=space" });
+      app.key(13);
+      assert.equal(app.stage.find("toast").textContent, "Paused");
+      app.advance(18900);
+      assert.equal(app.stage.children.length, 0);
+      assert.ok(app.stage.classList.contains("is-asleep"));
+
+      if (wakeInput === "Enter") app.key(13);
+      else app.emit("click");
+      const resumed = app.text();
+      assert.ok(resumed, "waking should show a slide");
+      assert.equal(app.stage.classList.contains("is-asleep"), false);
+      assert.equal(app.stage.find("toast"), null, "waking must not also toggle pause");
+
+      app.advance(3999);
+      assert.equal(app.text(), resumed);
+      assert.ok(app.stage.find("slide-pos").classList.contains("is-visible"));
+      app.advance(1);
+      assert.equal(app.stage.find("slide-pos").classList.contains("is-visible"), false);
+      app.advance(899);
+      assert.equal(app.text(), resumed);
+      app.advance(1);
+      assert.notEqual(app.text(), resumed, "the next slide should appear after 4 seconds plus the fade");
+      assert.equal(app.stage.children.length, 1);
+    });
+  }
 });
