@@ -143,6 +143,19 @@ test("TC-tv-app-011: content validation retains minimal slides and discards unus
   assert.deepEqual(result.categories.complete.items, [{ t: "Example", d: "Details", a: "Author" }]);
 });
 
+test("TC-tv-app-018: category style 'quote' is kept, any other style is dropped", () => {
+  const result = core.validateContent({
+    categories: {
+      inspire: { label: "Inspiring words", accent: "#ff7f6e", style: "quote", items: [{ t: "Words", a: "Someone" }] },
+      odd: { label: "Odd", accent: "#123456", style: "bold", items: [{ t: "Fact" }] },
+      plain: { label: "Plain", accent: "#123456", items: [{ t: "Fact two" }] }
+    }
+  });
+  assert.equal(result.categories.inspire.style, "quote");
+  assert.equal("style" in result.categories.odd, false);
+  assert.equal("style" in result.categories.plain, false);
+});
+
 test("TC-tv-app-012: slide centers use both bounds and fit measured boxes", () => {
   assert.deepEqual(core.randomCenter(() => 0, 20, 20), { x: 42, y: 40 });
   assert.deepEqual(core.randomCenter(() => 0.5, 20, 20), { x: 50, y: 50 });

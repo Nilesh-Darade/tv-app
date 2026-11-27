@@ -158,6 +158,8 @@
         });
         if (items.length) {
           categories[key] = { label: category.label, accent: category.accent, items: items };
+          // "style": "quote" sets the italic quote look for categories other than "quote".
+          if (category.style === "quote") categories[key].style = "quote";
         }
       });
     }
@@ -292,7 +294,7 @@
     label.appendChild(makeNode("span", "dot"));
     label.appendChild(document.createTextNode(entry.category.label));
     drift.appendChild(label);
-    drift.appendChild(makeNode("div", entry.key === "quote" ? "main is-quote" : "main", entry.item.t));
+    drift.appendChild(makeNode("div", entry.key === "quote" || entry.category.style === "quote" ? "main is-quote" : "main", entry.item.t));
     if (entry.item.d) drift.appendChild(makeNode("div", "detail", entry.item.d));
     if (entry.item.a) drift.appendChild(makeNode("div", "author", entry.item.a));
     slide.appendChild(drift);

@@ -19,7 +19,13 @@ CATEGORIES = {
     "animals": ("Animals and birds", "#ff93b4"),
     "space": ("Space", "#b9a6ff"),
     "learn": ("Did you know?", "#ffad66"),
+    "inspire": ("Inspiring words", "#ff7f6e"),
+    "chemistry": ("Chemistry", "#5ee0b8"),
+    "astronomy": ("Astronomy", "#8fb4ff"),
 }
+QUOTE_KEYS = {"quote", "inspire"}  # need an author or origin line
+DETAIL_KEYS = {"physics", "math", "chemistry"}  # need an everyday or worked example
+T_MAX, D_MAX = 110, 140  # keeps the slide on screen at the 40% and 60% extremes
 
 
 class PageAssets(HTMLParser):
@@ -87,10 +93,18 @@ class StaticChecks(unittest.TestCase):
                     self.assertTrue(set(item) <= {"t", "d", "a"})
                     for field in set(item) - {"t"}:
                         self.assertIsInstance(item[field], str)
-                    if key in {"physics", "math"}:
+                    if key in DETAIL_KEYS:
                         self.assertTrue(item.get("d", "").strip())
-                    if key == "quote":
+                    if key in QUOTE_KEYS:
                         self.assertTrue(item.get("a", "").strip())
+                    else:
+                        self.assertNotIn("a", item)
+                    self.assertLessEqual(len(item["t"]), T_MAX)
+                    self.assertLessEqual(len(item.get("d", "")), D_MAX)
+                    self.assertNotIn("–", item["t"] + item.get("d", "") + item.get("a", ""))
+        texts = [item["t"].strip().lower() for c in data["categories"].values() for item in c["items"]]
+        self.assertEqual(len(texts), len(set(texts)), "duplicate main text")
+        self.assertEqual(data["categories"]["inspire"].get("style"), "quote")
         for filename in ("app.js", "content.json", "index.html", "README.md", "styles.css"):
             with self.subTest(file=filename):
                 self.assertNotIn("\u2014", (ROOT / filename).read_text())

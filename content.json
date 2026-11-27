@@ -1,130 +1,2813 @@
 {
-  "categories": {
-    "quote": {
-      "label": "Think about it",
-      "accent": "#ffc857",
-      "items": [
-        {"t": "Practice makes perfect.", "d": "Things get easier the more you try them.", "a": "English proverb"},
-        {"t": "Look before you leap.", "d": "Think about what could happen before you act.", "a": "English proverb"},
-        {"t": "Two heads are better than one.", "d": "A friend might spot an answer you missed.", "a": "English proverb"},
-        {"t": "Many hands make light work.", "d": "Tidying a room is easier when everyone helps.", "a": "English proverb"},
-        {"t": "Better late than never.", "d": "You can still make a start, even if you meant to start sooner.", "a": "English proverb"},
-        {"t": "Don't count your chickens before they hatch.", "d": "Wait to see what happens before you count on it.", "a": "English proverb"},
-        {"t": "Don't put all your eggs in one basket.", "d": "Keep another plan ready in case your first one fails.", "a": "English proverb"},
-        {"t": "Actions speak louder than words.", "d": "Helping someone means more than just saying you will.", "a": "English proverb"},
-        {"t": "Every cloud has a silver lining.", "d": "Even a hard day can hold something good.", "a": "English proverb"},
-        {"t": "A stitch in time saves nine.", "d": "Fix a small tear now, before it gets bigger.", "a": "English proverb"},
-        {"t": "Haste makes waste.", "d": "When you rush, mistakes can make you do the job twice.", "a": "English proverb"},
-        {"t": "Out of sight, out of mind.", "d": "It's easy to forget things you don't see often.", "a": "English proverb"},
-        {"t": "Easy come, easy go.", "d": "Things gained quickly can disappear quickly, too.", "a": "English proverb"},
-        {"t": "Too many cooks spoil the broth.", "d": "A shared job can get messy when everyone tries to be in charge.", "a": "English proverb"},
-        {"t": "All that glitters is not gold.", "d": "Something can look fine without being as good as it seems.", "a": "English proverb"}
-      ]
+ "categories": {
+  "quote": {
+   "label": "Think about it",
+   "accent": "#ffc857",
+   "items": [
+    {
+     "t": "Practice makes perfect.",
+     "d": "Things get easier the more you try them.",
+     "a": "English proverb"
     },
-    "physics": {
-      "label": "Physics",
-      "accent": "#5ccfee",
-      "items": [
-        {"t": "Gravity pulls things toward Earth.", "d": "When you drop a sock, gravity pulls it to the floor."},
-        {"t": "Friction can slow things that slide.", "d": "A book pushed across a table slows down as it rubs against the table."},
-        {"t": "Moving things tend to keep moving.", "d": "When the car stops, your seat belt stops you from moving forward."},
-        {"t": "The same push speeds up a light cart more than a heavy cart.", "d": "With an equal push, an empty shopping cart speeds up faster than a full one."},
-        {"t": "A push is met by an equal push in the other direction.", "d": "Push water backward with your hands as you swim. The water pushes you forward."},
-        {"t": "Light bounces off a mirror.", "d": "When you brush your teeth, light from your face bounces off the mirror into your eyes."},
-        {"t": "Light can bend when it goes from water into air.", "d": "A straw in a clear glass of water can look bent at the water line."},
-        {"t": "Sounds start with something shaking back and forth.", "d": "Pluck a guitar string and watch it shake as it makes a sound."},
-        {"t": "Faster shaking makes a higher note.", "d": "On a guitar, pressing a string closer to the bridge leaves less string to shake and makes a higher note."},
-        {"t": "Heat moves from warmer things to cooler things.", "d": "A metal spoon warms up when you leave it in hot soup."},
-        {"t": "Water pushes upward on things in it.", "d": "A beach ball pops up when you let it go underwater."},
-        {"t": "A push farther from a pivot can turn something more easily.", "d": "A door swings open more easily when you push near the handle than when you push near the hinges."},
-        {"t": "Two north poles of magnets push each other away.", "d": "Bring the north ends of two toy bar magnets together and feel them push apart."},
-        {"t": "Electric current needs a complete path to keep flowing in a simple circuit.", "d": "A flashlight switch breaks the path when you turn it off."},
-        {"t": "Rubbing materials together can build up an electric charge.", "d": "Rub a balloon on your hair. The balloon can then pull your hair toward it."}
-      ]
+    {
+     "t": "Look before you leap.",
+     "d": "Think about what could happen before you act.",
+     "a": "English proverb"
     },
-    "math": {
-      "label": "Math",
-      "accent": "#a8e07a",
-      "items": [
-        {"t": "To triple a number, add three copies of it.", "d": "Triple 7 is 7 + 7 + 7 = 21."},
-        {"t": "Adding two odd numbers gives an even number.", "d": "5 + 7 = 12. You can split 12 into two equal groups of 6."},
-        {"t": "Swap the numbers you multiply and the answer stays the same.", "d": "3 rows of 4 dots make 12 dots. Turn the page sideways and you get 4 rows of 3, still 12."},
-        {"t": "To multiply by 9, multiply by 10 and take away one copy.", "d": "9 × 7 = 10 × 7 - 7 = 70 - 7 = 63."},
-        {"t": "To multiply a whole number by 5, multiply by 10 and halve the result.", "d": "For 5 × 14, first find 10 × 14 = 140. Half of 140 is 70."},
-        {"t": "A whole number is divisible by 3 if its digits add up to a multiple of 3.", "d": "For 42, add 4 + 2 = 6. Since 6 is a multiple of 3, 42 divides by 3 exactly. 42 ÷ 3 = 14."},
-        {"t": "Fractions stay equal when you multiply the top and bottom by the same nonzero number.", "d": "Multiply the 1 and 2 in 1/2 by 3. You get 3/6, which is still half."},
-        {"t": "To find a quarter of something, divide it into four equal parts.", "d": "A quarter of 20 grapes is 20 ÷ 4 = 5 grapes."},
-        {"t": "A rectangle's area is its length times its width.", "d": "A 6 cm by 4 cm rectangle has area 6 × 4 = 24 square centimeters."},
-        {"t": "For a shape with straight sides, add the side lengths to find the distance around it.", "d": "A rectangle with sides 8 cm and 3 cm is 8 + 3 + 8 + 3 = 22 cm around."},
-        {"t": "The three angles of a triangle on flat paper always add up to 180°.", "d": "With angles of 90° and 35°, the last angle is 180° - 90° - 35° = 55°."},
-        {"t": "A circle's diameter is twice its radius.", "d": "If it's 4 cm from the center to the edge, it's 2 × 4 = 8 cm all the way across the center."},
-        {"t": "A prime number has exactly two positive factors: 1 and itself.", "d": "Only 1 and 7 divide 7 with no leftover, so 7 is prime."},
-        {"t": "An average is the amount everyone would get if the total were shared equally.", "d": "Three friends have 2, 4 and 9 stickers. That's 15 stickers, so the average is 15 ÷ 3 = 5."},
-        {"t": "To find 10 percent of a number, divide it by 10.", "d": "10 percent of 80 is 80 ÷ 10 = 8."}
-      ]
+    {
+     "t": "Two heads are better than one.",
+     "d": "A friend might spot an answer you missed.",
+     "a": "English proverb"
     },
-    "animals": {
-      "label": "Animals and birds",
-      "accent": "#ff93b4",
-      "items": [
-        {"t": "Penguins use their wings like flippers.", "d": "They flap them underwater to swim after food."},
-        {"t": "American flamingos get their pink color from their food.", "d": "Tiny algae and small animals they eat contain pigments, which give their feathers color."},
-        {"t": "Bats are the only mammals that can fly by flapping their wings.", "d": "Flying squirrels glide, like a paper plane."},
-        {"t": "Dolphins come to the surface for air.", "d": "They breathe through a blowhole on top of the head."},
-        {"t": "Male humpback whales sing long songs.", "d": "Their songs repeat groups of sounds and can be heard underwater."},
-        {"t": "An elephant uses its trunk to pick up food.", "d": "Its trunk is a long nose that can grab a meal and carry it to its mouth."},
-        {"t": "A butterfly starts life as an egg.", "d": "It hatches as a caterpillar, then changes inside a chrysalis before coming out as a butterfly."},
-        {"t": "Spiders have eight legs. Insects have six.", "d": "A ladybug may look a bit like a tiny spider, but it has six legs."},
-        {"t": "Female sea turtles lay their eggs on land.", "d": "They dig a nest in the sand and cover the eggs before going back to sea."},
-        {"t": "A kangaroo joey finishes much of its early growth in a pouch.", "d": "The newborn climbs into its mother's pouch, where it drinks milk."},
-        {"t": "Crocodiles lay eggs and can guard their nests.", "d": "A mother crocodile may even carry her hatchlings to water in her mouth."},
-        {"t": "Beavers build dams from sticks, mud and other things they find.", "d": "A dam slows a stream and can make a pond behind it."},
-        {"t": "An ostrich can run fast, but it cannot fly.", "d": "It has long, strong legs that help it take big steps."},
-        {"t": "A male seahorse carries the young before they are born.", "d": "The female puts her eggs into a pouch on the male. The young grow there until he gives birth."},
-        {"t": "Polar bears have black skin under their fur.", "d": "Their fur looks white, which helps them blend in with snow and ice."}
-      ]
+    {
+     "t": "Many hands make light work.",
+     "d": "Tidying a room is easier when everyone helps.",
+     "a": "English proverb"
     },
-    "space": {
-      "label": "Space",
-      "accent": "#b9a6ff",
-      "items": [
-        {"t": "The Sun is a star.", "d": "It looks much bigger than other stars because it is much closer to Earth."},
-        {"t": "Sunlight takes about 8 minutes to reach Earth.", "d": "In empty space, light travels about 300,000 kilometers in one second."},
-        {"t": "Earth takes about a year to go around the Sun.", "d": "Earth spins as it travels, so different places get daylight at different times."},
-        {"t": "The Moon shines by reflecting sunlight.", "d": "As the Moon goes around Earth, we see different amounts of its sunny side."},
-        {"t": "The Moon spins once in about the same time it takes to go around Earth.", "d": "That is why we see nearly the same side of the Moon from Earth all the time."},
-        {"t": "A solar eclipse happens when the Moon blocks some of the Sun's light from reaching Earth.", "d": "People in the Moon's shadow can see the Sun partly or fully covered."},
-        {"t": "Mercury is the closest planet to the Sun.", "d": "It takes about 88 Earth days to go around the Sun once."},
-        {"t": "Venus takes longer to spin once than it takes to go around the Sun.", "d": "One spin takes about 243 Earth days. One trip around the Sun takes about 225."},
-        {"t": "Mars owes much of its red color to rusty dust.", "d": "Some of the iron in its rocks and dust has reacted with oxygen, like rust on an old bike."},
-        {"t": "Mars has two small moons.", "d": "Their names are Phobos and Deimos."},
-        {"t": "Jupiter is the biggest planet in our solar system.", "d": "The Great Red Spot you can see in pictures of Jupiter is a huge storm."},
-        {"t": "Saturn's rings are made mostly of pieces of ice.", "d": "The pieces stay in motion, circling Saturn."},
-        {"t": "Uranus spins almost on its side.", "d": "Picture a spinning top that keeps spinning while tipped almost all the way over."},
-        {"t": "Neptune takes about 165 Earth years to circle the Sun.", "d": "It is the farthest of the eight planets from the Sun."},
-        {"t": "We live in a galaxy called the Milky Way.", "d": "A galaxy is a huge group of stars, gas and dust held together by gravity."}
-      ]
+    {
+     "t": "Better late than never.",
+     "d": "You can still make a start, even if you meant to start sooner.",
+     "a": "English proverb"
     },
-    "learn": {
-      "label": "Did you know?",
-      "accent": "#ffad66",
-      "items": [
-        {"t": "Your smallest bones are inside your ears.", "d": "These tiny bones help pass vibrations from your eardrum to the inner ear."},
-        {"t": "Your pupil is the opening in the middle of your eye.", "d": "It usually gets bigger in dim light to let more light in."},
-        {"t": "Your heart is a pump made of muscle.", "d": "Every beat pushes blood through your body."},
-        {"t": "When you breathe in, oxygen from the air can pass into your blood.", "d": "It passes through the walls of tiny air sacs in your lungs."},
-        {"t": "Your tongue and nose work together when you taste food.", "d": "When you have a stuffy nose, food may seem to have less flavor."},
-        {"t": "The equator is an imaginary line around the middle of Earth.", "d": "It divides Earth into the Northern Hemisphere and the Southern Hemisphere."},
-        {"t": "The Pacific Ocean is Earth's largest ocean.", "d": "It lies between Asia and Australia on one side and the Americas on the other."},
-        {"t": "The South Pole sits in Antarctica.", "d": "At the South Pole, a thick sheet of ice covers the land."},
-        {"t": "A map scale helps you work out real distances.", "d": "If 1 centimeter on a map stands for 1 kilometer, 3 centimeters stand for 3 kilometers."},
-        {"t": "An island is a piece of land surrounded by water.", "d": "An island can sit in a lake or river as well as in the ocean."},
-        {"t": "Word of the day: nocturnal.", "d": "A nocturnal animal is active at night. A barn owl often hunts after dark."},
-        {"t": "Word of the day: peninsula.", "d": "A peninsula is land with water around most of it. Much of Florida sits between the Gulf and the Atlantic Ocean."},
-        {"t": "Word of the day: palindrome.", "d": "A palindrome reads the same forward and backward. Try it with the word level."},
-        {"t": "Word of the day: transparent.", "d": "If something is transparent, you can see clearly through it, like through clean window glass."},
-        {"t": "Word of the day: migrate.", "d": "To migrate is to move from one place to another. Many birds do this as the seasons change."}
-      ]
+    {
+     "t": "Don't count your chickens before they hatch.",
+     "d": "Wait to see what happens before you count on it.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Don't put all your eggs in one basket.",
+     "d": "Keep another plan ready in case your first one fails.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Actions speak louder than words.",
+     "d": "Helping someone means more than just saying you will.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Every cloud has a silver lining.",
+     "d": "Even a hard day can hold something good.",
+     "a": "English proverb"
+    },
+    {
+     "t": "A stitch in time saves nine.",
+     "d": "Fix a small tear now, before it gets bigger.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Haste makes waste.",
+     "d": "When you rush, mistakes can make you do the job twice.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Out of sight, out of mind.",
+     "d": "It's easy to forget things you don't see often.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Easy come, easy go.",
+     "d": "Things gained quickly can disappear quickly, too.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Too many cooks spoil the broth.",
+     "d": "A shared job can get messy when everyone tries to be in charge.",
+     "a": "English proverb"
+    },
+    {
+     "t": "All that glitters is not gold.",
+     "d": "Something can look fine without being as good as it seems.",
+     "a": "English proverb"
+    },
+    {
+     "t": "A journey of a thousand miles begins with a single step.",
+     "d": "Big jobs start small. Just take the first step.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "With enough work, an iron rod can be ground into a needle.",
+     "d": "Keep going and you can do things that seem impossible.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "Sharpening the knife does not delay cutting the wood.",
+     "d": "Getting ready well first makes the real job faster.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "Hearing a hundred times is not as good as seeing once.",
+     "d": "Seeing something yourself teaches you more than being told.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "When you drink the water, remember who dug the well.",
+     "d": "Say thank you to the people who helped you get what you have.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "Three people walking together always have something to learn from each other.",
+     "d": "Everyone knows something you don't, so you can learn from anyone.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "One generation plants the trees, and the next gets the shade.",
+     "d": "Good things you do today can help people long after.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "Don't wait until you are thirsty to dig a well.",
+     "d": "Get ready ahead of time instead of waiting until you need it.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "A fall into a pit is a gain in your wit.",
+     "d": "When you make a mistake, you get smarter for next time.",
+     "a": "Chinese proverb"
+    },
+    {
+     "t": "Fall down seven times, get up eight.",
+     "d": "Failing is okay. What counts is that you keep getting back up.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Even monkeys fall from trees.",
+     "d": "Even experts make mistakes, so don't feel bad about yours.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "A frog in a well does not know the great ocean.",
+     "d": "There is a big world outside what you know. Be curious about it.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Ten people, ten colors.",
+     "d": "Everyone is different and likes different things, and that is good.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Even dust, when piled up, becomes a mountain.",
+     "d": "Tiny steps every day add up to something big.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Even a stone becomes warm if you sit on it for three years.",
+     "d": "Patience and sticking with it get results in the end.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "If you are in a hurry, go the long way around.",
+     "d": "A safe, careful way often gets you there faster than rushing.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Fortune comes to the house that laughs.",
+     "d": "Happy, cheerful people tend to have good things come their way.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "See how others act, and fix your own ways.",
+     "d": "Notice good and bad examples, and learn from them yourself.",
+     "a": "Japanese proverb"
+    },
+    {
+     "t": "Haraka haraka haina baraka. Hurry, hurry has no blessing.",
+     "d": "Rushing often spoils things. Take your time and do it well.",
+     "a": "Swahili proverb"
+    },
+    {
+     "t": "Pole pole ndio mwendo. Slowly, slowly is the way to go.",
+     "d": "Steady, careful steps get you where you want to go.",
+     "a": "Swahili proverb"
+    },
+    {
+     "t": "Haba na haba hujaza kibaba. Little by little fills the pot.",
+     "d": "Small bits, added up day by day, make something big.",
+     "a": "Swahili proverb"
+    },
+    {
+     "t": "To live a long time is to see many things.",
+     "d": "The longer you live, the more you get to see.",
+     "a": "Swahili proverb"
+    },
+    {
+     "t": "A person is a person through other people.",
+     "d": "We are shaped by our family and friends, and we need each other.",
+     "a": "Zulu proverb"
+    },
+    {
+     "t": "When spider webs unite, they can tie up a lion.",
+     "d": "Small people working together can do big things.",
+     "a": "Ethiopian proverb"
+    },
+    {
+     "t": "Rain does not fall on one roof alone.",
+     "d": "Good times and hard times touch everyone, so we should help each other.",
+     "a": "African proverb"
+    },
+    {
+     "t": "Wisdom is like a baobab tree: no one person can wrap their arms around it.",
+     "d": "Nobody knows everything, so we all share what we know.",
+     "a": "Akan proverb"
+    },
+    {
+     "t": "Knowledge makes a person humble.",
+     "d": "The more you learn, the more you see how much is left to learn.",
+     "a": "Sanskrit saying"
+    },
+    {
+     "t": "One and one together can make eleven.",
+     "d": "Two people working together can be much stronger than two alone.",
+     "a": "Hindi proverb"
+    },
+    {
+     "t": "Do good, and good will come back to you.",
+     "d": "Being kind to others often makes others kind to you.",
+     "a": "Hindi proverb"
+    },
+    {
+     "t": "What you have learned is a handful. What you have not learned is the whole world.",
+     "d": "There is always more to learn, so keep being curious.",
+     "a": "Tamil proverb"
+    },
+    {
+     "t": "Patience is the key to relief.",
+     "d": "Waiting calmly often helps problems get solved.",
+     "a": "Arabic proverb"
+    },
+    {
+     "t": "The dogs bark, but the caravan moves on.",
+     "d": "Keep going with your goal, even if some people say unkind things.",
+     "a": "Arabic proverb"
+    },
+    {
+     "t": "Learning when you are young is like carving in stone.",
+     "d": "What you learn as a child stays with you for a long time.",
+     "a": "Arabic proverb"
+    },
+    {
+     "t": "No bad thing comes without some good.",
+     "d": "Even a tough thing can turn out to teach you something nice.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Face bad weather with a good face.",
+     "d": "Smile through tough days and they feel easier.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Little by little, you go far.",
+     "d": "Slow, regular steps can take you a long way.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Tell me who you walk with, and I'll tell you who you are.",
+     "d": "The friends you choose can change how you act, so choose kind ones.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Whoever keeps at it will reach the goal.",
+     "d": "Keep trying and you will reach your goal.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "The shrimp that falls asleep is carried off by the current.",
+     "d": "If you stop paying attention or trying, things can pass you by.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Nobody is born knowing.",
+     "d": "Everyone learns step by step, so it's fine to ask and try.",
+     "a": "Spanish proverb"
+    },
+    {
+     "t": "Measure seven times, cut once.",
+     "d": "Check your work carefully before you do something you can't undo.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "Patience and hard work will grind everything down.",
+     "d": "Keep working steadily and even hard things get done.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "Without work, you can't even pull a fish out of a pond.",
+     "d": "Nice things usually take some effort.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "Morning is wiser than evening.",
+     "d": "A problem often seems easier after a good night's sleep.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "A word is not a sparrow: once it flies out, you can't catch it.",
+     "d": "Think before you speak, because words can't be taken back.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "Better to have a hundred friends than a hundred rubles.",
+     "d": "Friends are worth more than money.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "The eyes are afraid, but the hands do it.",
+     "d": "A big job looks hard at first, but once you start, you can do it.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "Repetition is the mother of learning.",
+     "d": "Doing something again and again helps it stick in your mind.",
+     "a": "Russian proverb"
+    },
+    {
+     "t": "A good laugh and a long sleep are the best cures.",
+     "d": "Having fun and resting well help you feel better.",
+     "a": "Irish proverb"
+    },
+    {
+     "t": "People live in each other's shelter.",
+     "d": "We all need and help one another.",
+     "a": "Irish proverb"
+    },
+    {
+     "t": "Praise the young and they will flourish.",
+     "d": "Kind encouragement helps children grow and try harder.",
+     "a": "Irish proverb"
+    },
+    {
+     "t": "Better a wee bush than no shelter.",
+     "d": "A small help is still better than nothing.",
+     "a": "Scottish proverb"
+    },
+    {
+     "t": "He who goes slowly goes safely and goes far.",
+     "d": "Taking your time keeps you safe and gets you far.",
+     "a": "Italian proverb"
+    },
+    {
+     "t": "He who sleeps catches no fish.",
+     "d": "You have to be awake and active to get what you want.",
+     "a": "Italian proverb"
+    },
+    {
+     "t": "Whoever finds a friend finds a treasure.",
+     "d": "A good friend is worth more than gold.",
+     "a": "Italian proverb"
+    },
+    {
+     "t": "Rome wasn't built in a day.",
+     "d": "Great things take a long time, so be patient.",
+     "a": "Proverb"
+    },
+    {
+     "t": "Every beginning is hard.",
+     "d": "Starting something new feels tricky, but it gets easier.",
+     "a": "German proverb"
+    },
+    {
+     "t": "The morning hour has gold in its mouth.",
+     "d": "Early in the day is a good time to get things done.",
+     "a": "German proverb"
+    },
+    {
+     "t": "Trying beats studying.",
+     "d": "Reading about something helps, but trying it teaches the most.",
+     "a": "German proverb"
+    },
+    {
+     "t": "No effort, no prize.",
+     "d": "Good things come to those who work for them.",
+     "a": "German proverb"
+    },
+    {
+     "t": "Shared sorrow is half a sorrow.",
+     "d": "Telling a friend about a problem makes it feel lighter.",
+     "a": "German proverb"
+    },
+    {
+     "t": "Even if the sky falls, there is a way out.",
+     "d": "There is always a way through a tough problem.",
+     "a": "Korean proverb"
+    },
+    {
+     "t": "Kind words you give come back kind.",
+     "d": "Speak nicely to others and they will speak nicely to you.",
+     "a": "Korean proverb"
+    },
+    {
+     "t": "The small pepper is the hotter one.",
+     "d": "Small people can be strong and clever.",
+     "a": "Korean proverb"
+    },
+    {
+     "t": "Starting is half the job.",
+     "d": "Once you begin something, you are already halfway there.",
+     "a": "Korean proverb"
+    },
+    {
+     "t": "A tree bends while it is young.",
+     "d": "Good habits are easiest to learn when you are young.",
+     "a": "Turkish proverb"
+    },
+    {
+     "t": "One tree does not make a hill, but three trees together make a high mountain.",
+     "d": "Working together, we can do more than alone.",
+     "a": "Vietnamese proverb"
+    },
+    {
+     "t": "If you have patience, you will have stew.",
+     "d": "Waiting and sticking with a job brings a tasty reward.",
+     "a": "Filipino proverb"
+    },
+    {
+     "t": "Heavy and light loads are both carried together.",
+     "d": "A team shares the hard jobs and the easy ones.",
+     "a": "Malay proverb"
+    },
+    {
+     "t": "Not all knowledge is taught in one school.",
+     "d": "You can learn from many people and places, not just one.",
+     "a": "Hawaiian proverb"
+    },
+    {
+     "t": "What is the most important thing in the world? It is people, it is people, it is people.",
+     "d": "People matter more than things.",
+     "a": "Maori proverb"
+    },
+    {
+     "t": "The sweet potato does not speak of its own sweetness.",
+     "d": "Be humble. Let your good deeds speak for you.",
+     "a": "Maori proverb"
+    },
+    {
+     "t": "Soft water on hard stone, it keeps hitting until it makes a hole.",
+     "d": "Gentle but steady effort can beat even hard problems.",
+     "a": "Portuguese proverb"
+    },
+    {
+     "t": "Little by little, the bird builds its nest.",
+     "d": "Big things are built one small piece at a time.",
+     "a": "French proverb"
+    },
+    {
+     "t": "Shared joy is double joy.",
+     "d": "Good news feels even better when you share it.",
+     "a": "Swedish proverb"
+    },
+    {
+     "t": "He who would be a leader must be a bridge.",
+     "d": "A good leader helps people connect and cross over.",
+     "a": "Welsh proverb"
+    },
+    {
+     "t": "There is no bad weather, only bad clothes.",
+     "d": "With the right gear, you can enjoy any day outside.",
+     "a": "Norwegian proverb"
+    },
+    {
+     "t": "The more languages you know, the more times you are a person.",
+     "d": "Each language opens a new world of friends and ideas.",
+     "a": "Czech proverb"
+    },
+    {
+     "t": "Make haste slowly.",
+     "d": "Be quick but careful, because rushing causes mistakes.",
+     "a": "Latin proverb"
+    },
+    {
+     "t": "Fortune favors the brave.",
+     "d": "Trying something bold gives you a better chance of success.",
+     "a": "Latin proverb"
+    },
+    {
+     "t": "Slow and steady wins the race.",
+     "d": "Keep going at a steady pace and you can beat a faster but careless racer.",
+     "a": "Aesop's fable"
+    },
+    {
+     "t": "Great oaks from little acorns grow.",
+     "d": "Big things start from tiny beginnings.",
+     "a": "English proverb"
+    },
+    {
+     "t": "Birds of a feather flock together.",
+     "d": "People who are alike tend to become friends.",
+     "a": "English proverb"
+    },
+    {
+     "t": "The early bird catches the worm.",
+     "d": "Getting started early gives you the best chance.",
+     "a": "English proverb"
     }
+   ]
+  },
+  "inspire": {
+   "label": "Inspiring words",
+   "accent": "#ff7f6e",
+   "style": "quote",
+   "items": [
+    {
+     "t": "One never notices what has been done; one can only see what remains to be done.",
+     "d": "Even when you work hard, you see what is left to do. Remember to notice how far you have come too!",
+     "a": "Marie Curie"
+    },
+    {
+     "t": "We must have perseverance and above all confidence in ourselves.",
+     "d": "Keep going when things are hard, and believe that you can do it.",
+     "a": "Marie Curie"
+    },
+    {
+     "t": "I was taught that the way of progress was neither swift nor easy.",
+     "d": "Getting better at something takes time and effort, and that is normal.",
+     "a": "Marie Curie"
+    },
+    {
+     "t": "I am among those who think that science has great beauty.",
+     "d": "Science is not just facts. Finding out how things work can feel as lovely as music or art.",
+     "a": "Marie Curie"
+    },
+    {
+     "t": "I learned very early the difference between knowing the name of something and knowing something.",
+     "d": "Knowing a bird's name is a start. Watching what it eats and how it flies is real knowing.",
+     "a": "Richard Feynman"
+    },
+    {
+     "t": "The first principle is that you must not fool yourself, and you are the easiest person to fool.",
+     "d": "Be honest with yourself, especially when you really want something to be true.",
+     "a": "Richard Feynman"
+    },
+    {
+     "t": "What I cannot create, I do not understand.",
+     "d": "If you can build it or explain it yourself, you truly understand it.",
+     "a": "Richard Feynman"
+    },
+    {
+     "t": "I don't feel frightened by not knowing things.",
+     "d": "It is fine not to know everything. Not knowing is where the fun of finding out begins.",
+     "a": "Richard Feynman"
+    },
+    {
+     "t": "We are a way for the cosmos to know itself.",
+     "d": "We are made from the universe, and when we study the stars, the universe is learning about itself.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "The cosmos is within us. We are made of star-stuff.",
+     "d": "Many atoms in your body were made inside stars long ago.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "If you wish to make an apple pie from scratch, you must first invent the universe.",
+     "d": "Not every atom in a pie was made at the start. Stars made many of them later.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "Extraordinary claims require extraordinary evidence.",
+     "d": "If someone says something really amazing, ask for really good proof.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "Imagination will often carry us to worlds that never were. But without it we go nowhere.",
+     "d": "Dreaming up new ideas is the first step to every discovery.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "A book is proof that humans are capable of working magic.",
+     "d": "A book lets you hear the thoughts of someone you have never met, even from long ago.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "Look again at that dot. That's here. That's home. That's us.",
+     "d": "He was talking about a photo of Earth taken from far away, where our planet looks like a tiny dot.",
+     "a": "Carl Sagan"
+    },
+    {
+     "t": "If I have seen further it is by standing on the shoulders of Giants.",
+     "d": "He learned so much because people before him had already worked so hard. We build on each other.",
+     "a": "Isaac Newton"
+    },
+    {
+     "t": "I have no special talents. I am only passionately curious.",
+     "d": "Wanting to know how things work can take you a very long way.",
+     "a": "Albert Einstein"
+    },
+    {
+     "t": "Imagination is more important than knowledge.",
+     "d": "Facts are useful, but new ideas start when you imagine what could be.",
+     "a": "Albert Einstein"
+    },
+    {
+     "t": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+     "d": "Keep asking why. Being curious is good all by itself.",
+     "a": "Albert Einstein"
+    },
+    {
+     "t": "Life is like riding a bicycle. To keep your balance you must keep moving.",
+     "d": "He wrote this to his son. Keep trying and keep going, and you stay steady.",
+     "a": "Albert Einstein"
+    },
+    {
+     "t": "The most beautiful thing we can experience is the mysterious.",
+     "d": "Things we do not understand yet are exciting, because they are waiting to be discovered.",
+     "a": "Albert Einstein"
+    },
+    {
+     "t": "It is possible to fly without motors, but not without knowledge and skill.",
+     "d": "Before building a plane with an engine, the Wright brothers learned to fly gliders very carefully.",
+     "a": "Wilbur Wright"
+    },
+    {
+     "t": "Nothing is too wonderful to be true, if it be consistent with the laws of nature.",
+     "d": "Amazing things can be real, as long as they follow the rules of how nature works.",
+     "a": "Michael Faraday"
+    },
+    {
+     "t": "Work, finish, publish.",
+     "d": "His advice to a young scientist: do the work, finish it, then share it with the world.",
+     "a": "Michael Faraday"
+    },
+    {
+     "t": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+     "d": "We may not know the whole future, but there is lots of useful work we can start right now.",
+     "a": "Alan Turing"
+    },
+    {
+     "t": "The world needs all kinds of minds.",
+     "d": "People think in different ways, and every way of thinking can help the world.",
+     "a": "Temple Grandin"
+    },
+    {
+     "t": "Remember to look up at the stars and not down at your feet.",
+     "d": "Stay curious about the big world around you, and keep wondering.",
+     "a": "Stephen Hawking"
+    },
+    {
+     "t": "This is for everyone.",
+     "d": "The inventor of the World Wide Web wanted it to be free for all people to use.",
+     "a": "Tim Berners-Lee"
+    },
+    {
+     "t": "That's one small step for man, one giant leap for mankind.",
+     "d": "The first step on the Moon in 1969 was tiny for one person but huge for all people.",
+     "a": "Neil Armstrong"
+    },
+    {
+     "t": "We choose to go to the Moon in this decade... not because they are easy, but because they are hard.",
+     "d": "Doing hard things helps us grow and learn what we can really do.",
+     "a": "John F. Kennedy"
+    },
+    {
+     "t": "The vast loneliness is awe-inspiring and it makes you realize just what you have back there on Earth.",
+     "d": "Seeing Earth from the Moon showed him how special our home planet is.",
+     "a": "Jim Lovell"
+    },
+    {
+     "t": "Because it's there.",
+     "d": "His answer when asked why he wanted to climb Mount Everest. Explorers love a big challenge.",
+     "a": "George Mallory"
+    },
+    {
+     "t": "The mountains are calling and I must go.",
+     "d": "He loved nature so much that the wild places always pulled him outside to explore.",
+     "a": "John Muir"
+    },
+    {
+     "t": "It is not half so important to know as to feel.",
+     "d": "For children, loving and wondering about nature matters even more than learning its names.",
+     "a": "Rachel Carson"
+    },
+    {
+     "t": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+     "d": "Reading opens doors to new ideas, new places and new adventures.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "Today you are You, that is truer than true. There is no one alive who is Youer than You.",
+     "d": "Nobody else is exactly like you, and that is something to celebrate.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
+     "d": "You can think for yourself and choose your own path.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "Unless someone like you cares a whole awful lot, nothing is going to get better. It's not.",
+     "d": "From The Lorax. If you care about something, like trees or animals, you can help it.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "A person's a person, no matter how small.",
+     "d": "Everyone matters, big or little, young or old.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "Oh, the thinks you can think up if only you try!",
+     "d": "Your imagination is full of ideas waiting for you to discover them.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "I meant what I said and I said what I meant.",
+     "d": "Horton the elephant keeps his promise. Being trustworthy means doing what you said you would.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "You're off to Great Places! Today is your day! Your mountain is waiting, so... get on your way!",
+     "d": "Big adventures start with a first step today.",
+     "a": "Dr. Seuss"
+    },
+    {
+     "t": "If you have good thoughts they will shine out of your face like sunbeams and you will always look lovely.",
+     "d": "Kind and happy thoughts show on your face and make you shine.",
+     "a": "Roald Dahl"
+    },
+    {
+     "t": "Those who don't believe in magic will never find it.",
+     "d": "Stay open to wonder, and you will notice amazing things everywhere.",
+     "a": "Roald Dahl"
+    },
+    {
+     "t": "It is only with the heart that one can see rightly; what is essential is invisible to the eye.",
+     "d": "From The Little Prince. The most important things, like love and friendship, you feel rather than see.",
+     "a": "Antoine de Saint-Exupéry"
+    },
+    {
+     "t": "I am not afraid of storms, for I am learning how to sail my ship.",
+     "d": "From Little Women. Hard times feel less scary when you are learning how to handle them.",
+     "a": "Louisa May Alcott"
+    },
+    {
+     "t": "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+     "d": "From Anne of Green Gables. Every morning is a fresh start.",
+     "a": "L. M. Montgomery"
+    },
+    {
+     "t": "All we have to decide is what to do with the time that is given us.",
+     "d": "Gandalf says this in The Lord of the Rings. We cannot choose everything, but we choose what we do.",
+     "a": "J. R. R. Tolkien"
+    },
+    {
+     "t": "Not all those who wander are lost.",
+     "d": "People who wander and explore may still know exactly where they are headed.",
+     "a": "J. R. R. Tolkien"
+    },
+    {
+     "t": "Why, sometimes I've believed as many as six impossible things before breakfast.",
+     "d": "The White Queen in Through the Looking-Glass. Imagining impossible things is great practice for your mind.",
+     "a": "Lewis Carroll"
+    },
+    {
+     "t": "Begin at the beginning, and go on till you come to the end: then stop.",
+     "d": "From Alice in Wonderland. A simple plan for telling a story, or doing almost any job.",
+     "a": "Lewis Carroll"
+    },
+    {
+     "t": "It's no use going back to yesterday, because I was a different person then.",
+     "d": "Alice says this. We grow and change every day.",
+     "a": "Lewis Carroll"
+    },
+    {
+     "t": "You have been my friend. That in itself is a tremendous thing.",
+     "d": "Charlotte the spider says this in Charlotte's Web. Friendship is a gift in itself.",
+     "a": "E. B. White"
+    },
+    {
+     "t": "There is nothing, absolutely nothing, half so much worth doing as simply messing about in boats.",
+     "d": "Ratty says this in The Wind in the Willows. Simple fun outdoors is one of life's best things.",
+     "a": "Kenneth Grahame"
+    },
+    {
+     "t": "The world is so full of a number of things, I'm sure we should all be as happy as kings.",
+     "d": "There are so many wonderful things to see and do. That is a good reason to be happy.",
+     "a": "Robert Louis Stevenson"
+    },
+    {
+     "t": "Just living is not enough... one must have sunshine, freedom, and a little flower.",
+     "d": "A butterfly says this in his story. Small joys like sunshine and flowers make life sweet.",
+     "a": "Hans Christian Andersen"
+    },
+    {
+     "t": "Two roads diverged in a wood, and I, I took the one less traveled by, and that has made all the difference.",
+     "d": "In his poem, a traveler chooses one path and later feels that this choice mattered.",
+     "a": "Robert Frost"
+    },
+    {
+     "t": "Anything can happen, child. Anything can be.",
+     "d": "From a poem in Where the Sidewalk Ends. The future is full of possibilities.",
+     "a": "Shel Silverstein"
+    },
+    {
+     "t": "Their names are What and Why and When and How and Where and Who.",
+     "d": "Kipling said these six question words were his helpers that taught him all he knew.",
+     "a": "Rudyard Kipling"
+    },
+    {
+     "t": "Always do right. This will gratify some people and astonish the rest.",
+     "d": "Doing the right thing makes people happy, and surprises the ones who did not expect it.",
+     "a": "Mark Twain"
+    },
+    {
+     "t": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+     "d": "You do not have to be grown up to help. You can start making things better right now.",
+     "a": "Anne Frank"
+    },
+    {
+     "t": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
+     "d": "Believing things can go well helps you work hard and reach your goals.",
+     "a": "Helen Keller"
+    },
+    {
+     "t": "Life is either a daring adventure, or nothing.",
+     "d": "She could not see or hear, yet she lived boldly. Try new things and be brave.",
+     "a": "Helen Keller"
+    },
+    {
+     "t": "Although the world is full of suffering, it is full also of the overcoming of it.",
+     "d": "People face hard things, but people are also very good at getting through them.",
+     "a": "Helen Keller"
+    },
+    {
+     "t": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+     "d": "Being mean back does not fix meanness. Kindness is what makes things better.",
+     "a": "Martin Luther King Jr."
+    },
+    {
+     "t": "I learned that courage was not the absence of fear, but the triumph over it.",
+     "d": "Brave people still feel scared, but they do not let fear stop them.",
+     "a": "Nelson Mandela"
+    },
+    {
+     "t": "One child, one teacher, one book and one pen can change the world.",
+     "d": "She spoke at the United Nations about why every child should get to go to school.",
+     "a": "Malala Yousafzai"
+    },
+    {
+     "t": "You must do the thing you think you cannot do.",
+     "d": "Trying something that feels too hard is how you find out you are stronger than you thought.",
+     "a": "Eleanor Roosevelt"
+    },
+    {
+     "t": "Never give in, never give in, never, never, never, never.",
+     "d": "He said this to students at his old school. Keep trying, even when things are tough.",
+     "a": "Winston Churchill"
+    },
+    {
+     "t": "Always bear in mind that your own resolution to succeed is more important than any other one thing.",
+     "d": "From a letter to a young man. Your own decision to keep trying matters most.",
+     "a": "Abraham Lincoln"
+    },
+    {
+     "t": "Far and away the best prize that life has to offer is the chance to work hard at work worth doing.",
+     "d": "Working hard on something that really matters is one of the best feelings there is.",
+     "a": "Theodore Roosevelt"
+    },
+    {
+     "t": "I cannot live without books.",
+     "d": "He loved reading so much he wrote this in a letter to his friend John Adams.",
+     "a": "Thomas Jefferson"
+    },
+    {
+     "t": "Well done is better than well said.",
+     "d": "Doing something is better than just talking about it.",
+     "a": "Benjamin Franklin"
+    },
+    {
+     "t": "Lost time is never found again.",
+     "d": "Use your time well, because you cannot get it back.",
+     "a": "Benjamin Franklin"
+    },
+    {
+     "t": "Pressure is a privilege.",
+     "d": "Feeling nervous before a big moment means you have earned a chance to do something special.",
+     "a": "Billie Jean King"
+    },
+    {
+     "t": "You can observe a lot by watching.",
+     "d": "A funny way of saying: pay attention and you will learn a lot.",
+     "a": "Yogi Berra"
+    },
+    {
+     "t": "It ain't over till it's over.",
+     "d": "Do not give up early. Things can still change before the end.",
+     "a": "Yogi Berra"
+    },
+    {
+     "t": "We don't make mistakes, just happy little accidents.",
+     "d": "A painter's way of saying a mistake can turn into something new and nice.",
+     "a": "Bob Ross"
+    },
+    {
+     "t": "There's no person in the whole world like you, and I like you just the way you are.",
+     "d": "Mister Rogers told children on TV that each of them was special.",
+     "a": "Fred Rogers"
+    }
+   ]
+  },
+  "physics": {
+   "label": "Physics",
+   "accent": "#5ccfee",
+   "items": [
+    {
+     "t": "Gravity pulls things toward Earth.",
+     "d": "When you drop a sock, gravity pulls it to the floor."
+    },
+    {
+     "t": "Friction can slow things that slide.",
+     "d": "A book pushed across a table slows down as it rubs against the table."
+    },
+    {
+     "t": "Moving things tend to keep moving.",
+     "d": "When the car stops, your seat belt stops you from moving forward."
+    },
+    {
+     "t": "The same push speeds up a light cart more than a heavy cart.",
+     "d": "With an equal push, an empty shopping cart speeds up faster than a full one."
+    },
+    {
+     "t": "A push is met by an equal push in the other direction.",
+     "d": "Push water backward with your hands as you swim. The water pushes you forward."
+    },
+    {
+     "t": "Light bounces off a mirror.",
+     "d": "When you brush your teeth, light from your face bounces off the mirror into your eyes."
+    },
+    {
+     "t": "Light can bend when it goes from water into air.",
+     "d": "A straw in a clear glass of water can look bent at the water line."
+    },
+    {
+     "t": "Sounds start with something shaking back and forth.",
+     "d": "Pluck a guitar string and watch it shake as it makes a sound."
+    },
+    {
+     "t": "Faster shaking makes a higher note.",
+     "d": "On a guitar, pressing a string closer to the bridge leaves less string to shake and makes a higher note."
+    },
+    {
+     "t": "Heat moves from warmer things to cooler things.",
+     "d": "A metal spoon warms up when you leave it in hot soup."
+    },
+    {
+     "t": "Water pushes upward on things in it.",
+     "d": "A beach ball pops up when you let it go underwater."
+    },
+    {
+     "t": "A push farther from a pivot can turn something more easily.",
+     "d": "A door swings open more easily when you push near the handle than when you push near the hinges."
+    },
+    {
+     "t": "Two north poles of magnets push each other away.",
+     "d": "Bring the north ends of two toy bar magnets together and feel them push apart."
+    },
+    {
+     "t": "Electric current needs a complete path to keep flowing in a simple circuit.",
+     "d": "A flashlight switch breaks the path when you turn it off."
+    },
+    {
+     "t": "Rubbing materials together can build up an electric charge.",
+     "d": "Rub a balloon on your hair. The balloon can then pull your hair toward it."
+    },
+    {
+     "t": "A feather and a hammer fall together when there is no air.",
+     "d": "Astronauts showed this on the Moon. On Earth, air slows the feather."
+    },
+    {
+     "t": "Air pushes against things moving through it. This is air resistance.",
+     "d": "You feel it push on your face when you ride a bike fast."
+    },
+    {
+     "t": "A parachute has a big surface, so air slows its fall a lot.",
+     "d": "The wide cloth catches lots of air, so the jumper drifts down gently."
+    },
+    {
+     "t": "Flat paper falls slower than the same paper crumpled into a ball.",
+     "d": "The flat sheet catches more air, so air pushes up on it more."
+    },
+    {
+     "t": "A streamlined shape slides through air more easily.",
+     "d": "Cyclists crouch low and wear smooth helmets to cut through the wind."
+    },
+    {
+     "t": "Weight is the pull of gravity on an object.",
+     "d": "You weigh less on the Moon because the Moon pulls more gently."
+    },
+    {
+     "t": "Mass is how much stuff is in something. It stays the same everywhere.",
+     "d": "A bag of flour holds the same amount of flour on Earth or the Moon."
+    },
+    {
+     "t": "Rough surfaces make more friction than smooth ones.",
+     "d": "Sandpaper grips your hand more than a smooth sheet of plastic."
+    },
+    {
+     "t": "Friction turns movement into heat.",
+     "d": "Rub your hands together fast and they get warm."
+    },
+    {
+     "t": "Wet ice has very little friction, so things slide easily.",
+     "d": "Ice skates glide, but your shoes slip on a wet icy path."
+    },
+    {
+     "t": "A force is a push or a pull.",
+     "d": "You push a swing. You pull a wagon."
+    },
+    {
+     "t": "Unbalanced forces change how something moves.",
+     "d": "A bigger pull from one team drags the rope and the other team."
+    },
+    {
+     "t": "A rocket moves up by pushing hot gas down.",
+     "d": "A balloon zooms the other way when you let its air rush out."
+    },
+    {
+     "t": "When you jump off a skateboard, the board rolls backward.",
+     "d": "Your push on the board is matched by its push on you."
+    },
+    {
+     "t": "A pendulum swings back and forth with a steady beat.",
+     "d": "A playground swing takes about the same time for each swing."
+    },
+    {
+     "t": "A longer pendulum swings more slowly.",
+     "d": "A swing on long chains takes longer per swing than one on short chains."
+    },
+    {
+     "t": "Something moving in a circle keeps changing direction.",
+     "d": "A car going around a roundabout is always turning, even at steady speed."
+    },
+    {
+     "t": "Speed tells how far something goes in a set time.",
+     "d": "A bike going 10 km in one hour has a speed of 10 km per hour."
+    },
+    {
+     "t": "A ball thrown sideways still falls at the same time as one dropped.",
+     "d": "Both hit the ground together, but the thrown one lands farther away."
+    },
+    {
+     "t": "A ball thrown in an arc follows a curved path.",
+     "d": "A basketball shot rises, slows, then curves down into the hoop."
+    },
+    {
+     "t": "Pressure is a push spread over an area.",
+     "d": "The same push on a small spot presses harder than on a big spot."
+    },
+    {
+     "t": "A sharp knife cuts better because its edge is very thin.",
+     "d": "All your push goes onto a tiny edge, so the pressure is high."
+    },
+    {
+     "t": "Water pressure gets bigger the deeper you go.",
+     "d": "Your ears can feel it when you dive to the bottom of a pool."
+    },
+    {
+     "t": "Air has weight, and it pushes on everything around us.",
+     "d": "A sealed bag of chips looks puffy up a mountain because outside air pushes less."
+    },
+    {
+     "t": "A drinking straw works because air pushes on the drink.",
+     "d": "You make low pressure in the straw and the air pushes juice up."
+    },
+    {
+     "t": "A heavy ship floats because it is shaped to hold lots of air.",
+     "d": "Its wide hollow shape pushes aside enough water to hold it up."
+    },
+    {
+     "t": "Something floats if it is less dense than the liquid.",
+     "d": "A cork floats in water because it is lighter for its size."
+    },
+    {
+     "t": "Light travels in straight lines.",
+     "d": "Sunbeams through a gap in the curtains look like straight streaks."
+    },
+    {
+     "t": "A shadow forms when something blocks light.",
+     "d": "Stand in sunshine and your body blocks the light behind you."
+    },
+    {
+     "t": "Light moves much faster than sound.",
+     "d": "You see lightning first and hear the thunder a little later."
+    },
+    {
+     "t": "Clear things let light through. Opaque things block light.",
+     "d": "You can see through a window, but not through a wooden door."
+    },
+    {
+     "t": "A white light can split into a rainbow of colors.",
+     "d": "A glass prism or raindrops can bend each color a different amount."
+    },
+    {
+     "t": "A rainbow forms when sunlight passes through raindrops.",
+     "d": "The drops bend the light and spread it into colors."
+    },
+    {
+     "t": "A red apple looks red because it bounces red light to your eyes.",
+     "d": "It soaks up most other colors of light that hit it."
+    },
+    {
+     "t": "Dark clothes get warmer in the sun than light clothes.",
+     "d": "A black T-shirt feels hotter than a white one on a sunny day."
+    },
+    {
+     "t": "A smooth mirror shows a clear picture, but rough surfaces do not.",
+     "d": "Still water works like a mirror, but a rippled pond does not."
+    },
+    {
+     "t": "A magnifying glass is a curved piece of glass that bends light.",
+     "d": "It makes small things like ants look bigger."
+    },
+    {
+     "t": "Your eyes see because light bounces off things and enters them.",
+     "d": "In a completely dark room, you cannot see anything at all."
+    },
+    {
+     "t": "Sound travels as waves of vibration through air.",
+     "d": "Shout across a field and the air carries the shaking to a friend."
+    },
+    {
+     "t": "Sound cannot travel through empty space.",
+     "d": "With no air to shake, space is silent."
+    },
+    {
+     "t": "Sound travels faster through water than through air.",
+     "d": "Underwater, you can hear a splash from a long way off."
+    },
+    {
+     "t": "Sound travels through solid things too.",
+     "d": "Put your ear on a table and tap the far end. It sounds louder."
+    },
+    {
+     "t": "An echo is sound that bounces off a hard surface.",
+     "d": "Shout in a tunnel or an empty hall and your voice comes back."
+    },
+    {
+     "t": "A bigger vibration makes a louder sound.",
+     "d": "Hit a drum hard and the skin shakes more, so it is louder."
+    },
+    {
+     "t": "Metal is a good conductor of heat. Heat moves through it quickly.",
+     "d": "A metal spoon in hot soup soon feels hot at the handle."
+    },
+    {
+     "t": "Wood and plastic are poor conductors of heat.",
+     "d": "Pot handles are plastic or wood so they stay cooler to hold."
+    },
+    {
+     "t": "Insulation slows down heat moving from place to place.",
+     "d": "A woolly hat keeps your body heat from escaping."
+    },
+    {
+     "t": "Trapped air is a great insulator.",
+     "d": "A puffy coat is warm because tiny pockets of air hold your heat in."
+    },
+    {
+     "t": "A vacuum flask keeps drinks hot or cold by slowing heat transfer.",
+     "d": "Its double walls have almost no air between them to carry heat."
+    },
+    {
+     "t": "Metal feels colder than wood at the same temperature.",
+     "d": "It pulls heat from your hand faster, so your skin feels cold."
+    },
+    {
+     "t": "Warm air rises, and cool air sinks.",
+     "d": "The air near the ceiling of a room is warmer than near the floor."
+    },
+    {
+     "t": "Heat can travel as rays you feel, without touching.",
+     "d": "You feel warmth from a campfire or the Sun on your face."
+    },
+    {
+     "t": "Most things get bigger when heated and smaller when cooled.",
+     "d": "Bridges have small gaps so they can stretch safely in hot weather."
+    },
+    {
+     "t": "A liquid thermometer works because the liquid in it expands when it warms.",
+     "d": "The liquid rises up the thin tube as the temperature goes up."
+    },
+    {
+     "t": "Heat is energy moving, and temperature tells how hot something is.",
+     "d": "A bathtub of warm water stores more energy than a cup at the same temperature."
+    },
+    {
+     "t": "Water takes a long time to heat up and cool down.",
+     "d": "The sea stays cool on a hot day, and the sand gets very hot."
+    },
+    {
+     "t": "Moving things have movement energy, called kinetic energy.",
+     "d": "A fast rolling ball can knock over more skittles than a slow one."
+    },
+    {
+     "t": "Things held up high have stored energy from gravity.",
+     "d": "A child at the top of a slide has stored energy that turns into motion."
+    },
+    {
+     "t": "A stretched rubber band stores energy.",
+     "d": "Let go of it and it zips across the room."
+    },
+    {
+     "t": "Food gives your body stored energy to move and grow.",
+     "d": "A good breakfast gives you energy to run around at break time."
+    },
+    {
+     "t": "Plants store energy from sunlight in their leaves and food.",
+     "d": "Sunlight helps plants grow, and animals get energy by eating them."
+    },
+    {
+     "t": "A battery stores energy ready to turn into light, sound or motion.",
+     "d": "A torch turns battery energy into light."
+    },
+    {
+     "t": "A bouncing ball loses a little energy each bounce.",
+     "d": "Some turns into sound and heat, so it bounces lower each time."
+    },
+    {
+     "t": "Solar panels turn light from the Sun into electricity.",
+     "d": "Some calculators run on a small solar panel with no battery."
+    },
+    {
+     "t": "A wind turbine turns the movement of wind into electricity.",
+     "d": "The wind spins the blades and a generator makes power."
+    },
+    {
+     "t": "A bulb in a circuit lights up when current passes through it.",
+     "d": "A torch lights only when the switch completes the path."
+    },
+    {
+     "t": "Metals like copper let electricity flow easily. They are conductors.",
+     "d": "Wires are made of copper, with a plastic cover around them."
+    },
+    {
+     "t": "Rubber and plastic do not let electricity flow. They are insulators.",
+     "d": "The plastic coating on a charger cable keeps the electricity inside."
+    },
+    {
+     "t": "A magnet pulls on iron and steel, but not on wood or plastic.",
+     "d": "A fridge magnet clings to the steel door, but not to a wooden shelf."
+    },
+    {
+     "t": "The Earth acts like a giant magnet.",
+     "d": "A compass needle lines up with Earth's magnetic field and points north."
+    },
+    {
+     "t": "A magnet has two ends called poles, a north and a south.",
+     "d": "If you cut a magnet in half, each piece has both poles."
+    },
+    {
+     "t": "A magnet's push or pull works through paper and thin plastic.",
+     "d": "A magnet can move a paper clip across a table from underneath."
+    },
+    {
+     "t": "Opposite electric charges attract. Matching charges push apart.",
+     "d": "Hair stands up after a balloon rub because the strands push each other."
+    },
+    {
+     "t": "A lever turns around a fixed point, called a fulcrum.",
+     "d": "A seesaw turns on its middle so one end goes up as the other goes down."
+    },
+    {
+     "t": "A longer lever lets you lift a heavy thing with a smaller push.",
+     "d": "A long crowbar can pry up a heavy lid more easily than a short one."
+    },
+    {
+     "t": "A wheelbarrow is a lever that helps you carry heavy loads.",
+     "d": "Lifting the handles takes less effort than lifting the load by hand."
+    },
+    {
+     "t": "A ramp lets you raise something with less force, over a longer path.",
+     "d": "It is easier to push a box up a slope than to lift it straight up."
+    },
+    {
+     "t": "A screw is a ramp wrapped around a pole.",
+     "d": "It turns and pulls itself into wood, going down a tiny slope."
+    },
+    {
+     "t": "A wedge is two ramps joined together.",
+     "d": "An axe or a knife splits things apart by pushing sideways as it goes in."
+    },
+    {
+     "t": "A pulley uses a rope and wheel to change the direction of a pull.",
+     "d": "A flag goes up when you pull the rope down."
+    },
+    {
+     "t": "Gears are wheels with teeth that turn each other.",
+     "d": "On a bike, the gears help you pedal up steep hills."
+    },
+    {
+     "t": "Simple machines make a job easier, but they do not give free energy.",
+     "d": "A ramp needs less push, but you must push over a longer distance."
+    },
+    {
+     "t": "Things are steadier with a low center of gravity.",
+     "d": "A tall, narrow stack of books tips over more easily than a wide pile."
+    },
+    {
+     "t": "The center of gravity is the point where an object balances.",
+     "d": "A ruler balances on your finger at its middle."
+    },
+    {
+     "t": "A wide base makes things hard to tip over.",
+     "d": "A traffic cone sits steadily on its wide square bottom."
+    },
+    {
+     "t": "Bending your knees helps you stay balanced.",
+     "d": "On a skateboard you crouch to keep your weight low and steady."
+    },
+    {
+     "t": "A longer stopping time means a smaller force.",
+     "d": "Bending your knees when you land from a jump makes the landing softer."
+    },
+    {
+     "t": "An elastic thing springs back to its shape after being stretched.",
+     "d": "A trampoline stretches down and then pushes you back up."
+    },
+    {
+     "t": "Lightning is a huge spark of static electricity.",
+     "d": "It is like the spark you may see taking off a woolly jumper, but much bigger."
+    },
+    {
+     "t": "Tires have treads, grooves that help them grip the road.",
+     "d": "Even on a wet road, the grooves help the tire hold on."
+    },
+    {
+     "t": "Wide snowshoes stop you sinking into snow.",
+     "d": "Your weight spreads over a big area, so the pressure is smaller."
+    },
+    {
+     "t": "Oil floats on water because it is less dense.",
+     "d": "Oil drops in soup gather on top instead of mixing in."
+    },
+    {
+     "t": "Salty water pushes up harder than fresh water.",
+     "d": "It feels easier to float in the sea than in a swimming pool."
+    },
+    {
+     "t": "A hot air balloon rises because hot air is lighter than cool air.",
+     "d": "The warm air inside is less dense than the cool air outside."
+    },
+    {
+     "t": "Fill glasses with different amounts of water to make different notes.",
+     "d": "Tap a glass with more water and the note sounds lower."
+    },
+    {
+     "t": "Soft things soak up sound.",
+     "d": "A room with thick curtains and rugs sounds quieter than an empty room."
+    },
+    {
+     "t": "A big drum makes a deeper sound than a small drum.",
+     "d": "A bass drum goes boom, while a little drum goes tap."
+    },
+    {
+     "t": "A shadow is longest when the Sun is low in the sky.",
+     "d": "Your shadow is very long in the late afternoon."
+    },
+    {
+     "t": "A wheel on an axle rolls with less friction than sliding.",
+     "d": "A trolley with wheels is easier to push than a box dragged on the floor."
+    }
+   ]
+  },
+  "chemistry": {
+   "label": "Chemistry",
+   "accent": "#5ee0b8",
+   "items": [
+    {
+     "t": "An atom is the smallest unit of an element that still acts like that element.",
+     "d": "Everything from air to apples is made of atoms."
+    },
+    {
+     "t": "Most of an atom's mass is packed into its tiny nucleus.",
+     "d": "The nucleus sits at the center of the atom."
+    },
+    {
+     "t": "Protons are positively charged particles inside an atom's nucleus.",
+     "d": "The number of protons tells you which element the atom is."
+    },
+    {
+     "t": "Neutrons have no electric charge and sit in an atom's nucleus.",
+     "d": "A neutron is about as heavy as a proton."
+    },
+    {
+     "t": "Electrons are negatively charged particles found around an atom's nucleus.",
+     "d": "Electrons help atoms join and react with one another."
+    },
+    {
+     "t": "An element's atomic number equals the number of protons in each of its atoms.",
+     "d": "Every carbon atom has 6 protons, so carbon's atomic number is 6."
+    },
+    {
+     "t": "Each element has a short chemical symbol.",
+     "d": "O means oxygen, C means carbon and Fe means iron."
+    },
+    {
+     "t": "The periodic table lists elements in order of atomic number.",
+     "d": "Each step across the table adds one proton."
+    },
+    {
+     "t": "Elements in the same periodic table column often behave in similar ways.",
+     "d": "Lithium, sodium and potassium share a column, and all are soft, shiny metals."
+    },
+    {
+     "t": "A molecule forms when two or more atoms join with chemical bonds.",
+     "d": "A water molecule contains three atoms joined together."
+    },
+    {
+     "t": "A compound contains two or more different elements chemically joined.",
+     "d": "Water is a compound made from hydrogen and oxygen."
+    },
+    {
+     "t": "The oxygen gas in air is mostly made of molecules with two oxygen atoms.",
+     "d": "Its chemical formula is O2."
+    },
+    {
+     "t": "Each water molecule contains two hydrogen atoms and one oxygen atom.",
+     "d": "That is why water's formula is H2O."
+    },
+    {
+     "t": "Each carbon dioxide molecule has one carbon atom and two oxygen atoms.",
+     "d": "Its formula is CO2, and you breathe some out."
+    },
+    {
+     "t": "Table salt contains sodium ions and chloride ions in a 1 to 1 ratio.",
+     "d": "Its chemical formula is NaCl."
+    },
+    {
+     "t": "An ion is an atom or group of atoms with an electric charge.",
+     "d": "It becomes charged by losing or gaining electrons."
+    },
+    {
+     "t": "An atom that loses electrons becomes a positive ion.",
+     "d": "A sodium atom can lose one electron to become a sodium ion."
+    },
+    {
+     "t": "An atom that gains electrons becomes a negative ion.",
+     "d": "A chlorine atom can gain one electron to become a chloride ion."
+    },
+    {
+     "t": "A covalent bond forms when atoms share electrons.",
+     "d": "Hydrogen and oxygen share electrons in a water molecule."
+    },
+    {
+     "t": "An ionic bond is the attraction between positive and negative ions.",
+     "d": "This attraction holds sodium and chloride ions together in salt."
+    },
+    {
+     "t": "Isotopes are atoms of one element with different numbers of neutrons.",
+     "d": "All carbon isotopes have 6 protons, but their neutron counts can differ."
+    },
+    {
+     "t": "A solid keeps its own shape and volume.",
+     "d": "Its particles stay close together and vibrate in place."
+    },
+    {
+     "t": "A liquid keeps its volume but takes the shape of its container.",
+     "d": "Juice changes shape when poured from a carton into a glass."
+    },
+    {
+     "t": "A gas has no fixed shape or volume.",
+     "d": "Air spreads out to fill a balloon."
+    },
+    {
+     "t": "Melting changes a solid into a liquid.",
+     "d": "An ice cube melts into liquid water as it warms."
+    },
+    {
+     "t": "Freezing changes a liquid into a solid.",
+     "d": "Liquid water becomes ice in a freezer."
+    },
+    {
+     "t": "Evaporation happens when particles escape from a liquid's surface.",
+     "d": "A wet pavement slowly dries even when the water is not boiling."
+    },
+    {
+     "t": "Boiling happens throughout a liquid, not only at its surface.",
+     "d": "Bubbles of water vapor form throughout boiling water."
+    },
+    {
+     "t": "Condensation changes a gas into a liquid.",
+     "d": "Water vapor can form drops on the outside of a cold glass."
+    },
+    {
+     "t": "Sublimation changes a solid directly into a gas.",
+     "d": "Snow can slowly disappear on a cold, dry day without first melting."
+    },
+    {
+     "t": "Deposition changes a gas directly into a solid.",
+     "d": "Water vapor can form ice crystals as frost on a cold surface."
+    },
+    {
+     "t": "Plasma is a gas-like state containing charged particles.",
+     "d": "Stars are mostly plasma."
+    },
+    {
+     "t": "Heating matter usually makes its particles move faster.",
+     "d": "Warm food gives off smells faster because particles move and spread more quickly."
+    },
+    {
+     "t": "A gas can be squeezed into a smaller space more easily than a liquid.",
+     "d": "Pushing a blocked bicycle pump compresses the trapped air."
+    },
+    {
+     "t": "Density tells how much mass is packed into a certain volume.",
+     "d": "A stone is usually denser than an equal-sized piece of foam."
+    },
+    {
+     "t": "Ice is less dense than liquid water, so it floats.",
+     "d": "Ice cubes stay near the top of a drink."
+    },
+    {
+     "t": "Water expands when it freezes.",
+     "d": "The same amount of water takes up more space as ice."
+    },
+    {
+     "t": "A pure substance has a fixed composition and its own set of properties.",
+     "d": "Pure water always contains hydrogen and oxygen in the same ratio."
+    },
+    {
+     "t": "A mixture contains substances together without chemically joining them.",
+     "d": "A bowl of cereal and fruit is a mixture whose parts remain easy to see."
+    },
+    {
+     "t": "A solution is a mixture that looks the same throughout.",
+     "d": "Salt can spread evenly through water to make a clear solution."
+    },
+    {
+     "t": "A solute dissolves in a solvent.",
+     "d": "In sugar water, sugar is the solute and water is the solvent."
+    },
+    {
+     "t": "Concentration tells how much solute is in a certain amount of solution.",
+     "d": "More drink powder in the same amount of water makes a stronger solution."
+    },
+    {
+     "t": "A saturated solution cannot dissolve more solute at that temperature.",
+     "d": "Extra sugar stays at the bottom once the water has dissolved all it can."
+    },
+    {
+     "t": "Stirring can make a solid dissolve faster.",
+     "d": "Sugar dissolves faster when stirred because fresh water keeps reaching it."
+    },
+    {
+     "t": "Hot water can dissolve more sugar than the same amount of cold water.",
+     "d": "Temperature can change how much of a substance will dissolve."
+    },
+    {
+     "t": "Crystals can form when particles in a solution arrange into a pattern.",
+     "d": "Salt crystals may appear as salty water slowly evaporates."
+    },
+    {
+     "t": "Oil and water do not mix evenly.",
+     "d": "After shaking, oil droplets usually join and rise into a separate layer."
+    },
+    {
+     "t": "A suspension has particles that may settle when left still.",
+     "d": "Muddy water clears slowly as some soil sinks to the bottom."
+    },
+    {
+     "t": "A colloid has tiny particles spread through another substance.",
+     "d": "Milk contains tiny fat droplets and proteins spread through water."
+    },
+    {
+     "t": "Filtering can separate an insoluble solid from a liquid.",
+     "d": "A coffee filter traps solid grounds while the liquid passes through."
+    },
+    {
+     "t": "Evaporation can separate a dissolved solid from water.",
+     "d": "When salt water evaporates, the salt remains behind."
+    },
+    {
+     "t": "Distillation separates substances by boiling and then condensing vapor.",
+     "d": "Water vapor can be cooled and collected apart from dissolved salt."
+    },
+    {
+     "t": "Paper chromatography can separate some mixtures of colored dyes.",
+     "d": "Some marker inks spread into several colors as water moves up paper."
+    },
+    {
+     "t": "A magnet can help separate iron from a mixture.",
+     "d": "A magnet can lift iron filings away from sand."
+    },
+    {
+     "t": "An alloy is a mixture containing a metal and one or more other elements.",
+     "d": "Alloys can have different properties from the elements used to make them."
+    },
+    {
+     "t": "Brass is an alloy made mainly from copper and zinc.",
+     "d": "It often has a golden color and is used for musical instruments."
+    },
+    {
+     "t": "Steel is made mostly from iron with carbon and sometimes other elements.",
+     "d": "Changing the mixture can make different kinds of steel."
+    },
+    {
+     "t": "Air is a mixture of gases, not a single substance.",
+     "d": "Dry air is about 78 percent nitrogen and 21 percent oxygen."
+    },
+    {
+     "t": "A chemical reaction rearranges atoms into new substances.",
+     "d": "The atoms remain, but their bonds and partners can change."
+    },
+    {
+     "t": "Mass is conserved during a chemical reaction in a closed container.",
+     "d": "The total mass before and after the reaction stays the same."
+    },
+    {
+     "t": "Bubbles, a color change or a new solid can be clues that a reaction occurred.",
+     "d": "One clue alone does not always prove that a new substance formed."
+    },
+    {
+     "t": "A temperature change can be a clue to a chemical reaction.",
+     "d": "Some reactions warm their surroundings, while others cool them."
+    },
+    {
+     "t": "A catalyst speeds up a reaction without being used up overall.",
+     "d": "Enzymes act as catalysts for many reactions in your body."
+    },
+    {
+     "t": "Many reactions need some starting energy called activation energy.",
+     "d": "A spark supplies starting energy when a gas stove is safely switched on."
+    },
+    {
+     "t": "An exothermic reaction releases energy to its surroundings.",
+     "d": "Disposable hand warmers get warm as iron powder inside slowly rusts."
+    },
+    {
+     "t": "An endothermic reaction takes in energy from its surroundings.",
+     "d": "Photosynthesis stores energy from sunlight in sugar."
+    },
+    {
+     "t": "Burning is a chemical reaction that usually involves oxygen.",
+     "d": "A candle flame releases heat and light as wax vapor reacts with oxygen."
+    },
+    {
+     "t": "Photosynthesis changes carbon dioxide and water into glucose and oxygen.",
+     "d": "Plants use light energy to power this chemical process."
+    },
+    {
+     "t": "Many cells use oxygen to release energy from food.",
+     "d": "This process produces carbon dioxide and water."
+    },
+    {
+     "t": "Iron rusts when it reacts with oxygen in the presence of water.",
+     "d": "Keeping an iron tool clean and dry helps slow rusting."
+    },
+    {
+     "t": "Salty water can make iron rust faster.",
+     "d": "Dissolved ions help electric charges move during the rusting process."
+    },
+    {
+     "t": "Silver can tarnish by reacting with sulfur compounds in the air.",
+     "d": "The reaction forms a dark coating on the silver's surface."
+    },
+    {
+     "t": "Copper can slowly form a green patina after reacting with air and water.",
+     "d": "The coating is made of new copper compounds."
+    },
+    {
+     "t": "The pH scale tells how acidic or basic a water-based solution is.",
+     "d": "A pH meter or indicator paper can measure it."
+    },
+    {
+     "t": "Acidic solutions have a pH below 7 on the common pH scale.",
+     "d": "Lemon juice is acidic because it contains citric acid."
+    },
+    {
+     "t": "Basic solutions have a pH above 7 on the common pH scale.",
+     "d": "A solution of baking soda and water is mildly basic."
+    },
+    {
+     "t": "Pure water is neutral, with a pH of 7 at about 25 degrees Celsius.",
+     "d": "Neutral means it is neither acidic nor basic."
+    },
+    {
+     "t": "A chemical indicator changes color depending on acidity.",
+     "d": "Indicator paper can show whether a solution is acidic or basic."
+    },
+    {
+     "t": "Red cabbage contains pigments that can act as a pH indicator.",
+     "d": "The pigments show different colors in acidic and basic liquids."
+    },
+    {
+     "t": "An acid and a base can react to form a salt and water.",
+     "d": "This kind of reaction is called neutralization."
+    },
+    {
+     "t": "Baking soda releases carbon dioxide when it reacts with an acid.",
+     "d": "The gas forms the bubbles when baking soda meets lemon juice."
+    },
+    {
+     "t": "Yeast can turn sugars into carbon dioxide and other substances.",
+     "d": "The gas makes bubbles that help bread dough puff up."
+    },
+    {
+     "t": "Baking powder contains ingredients that can produce carbon dioxide gas.",
+     "d": "The bubbles help cakes and muffins rise while baking."
+    },
+    {
+     "t": "Heat changes the shape and links of proteins in an egg.",
+     "d": "This chemical change turns a runny egg white firm."
+    },
+    {
+     "t": "Starch grains swell and thicken mixtures when heated with water.",
+     "d": "Starch can make soup or sauce less runny."
+    },
+    {
+     "t": "Browning toast creates new flavors through reactions between sugars and proteins.",
+     "d": "These are called Maillard reactions."
+    },
+    {
+     "t": "Caramelization happens when sugar molecules change as they are heated.",
+     "d": "The change creates brown colors and new flavors."
+    },
+    {
+     "t": "A soap molecule has a water-loving end and an oil-loving end.",
+     "d": "This lets soap connect oily dirt with water."
+    },
+    {
+     "t": "Soap can surround grease in tiny droplets that water carries away.",
+     "d": "That is why washing works better with soap than with water alone."
+    },
+    {
+     "t": "Detergents lower water's surface tension.",
+     "d": "This helps water spread through fabric and reach dirt."
+    },
+    {
+     "t": "Hard water contains noticeable amounts of dissolved calcium and magnesium ions.",
+     "d": "These minerals can leave a pale scale inside a kettle."
+    },
+    {
+     "t": "A polymer is a large molecule built from many smaller repeating units.",
+     "d": "Many plastics are polymers with long chains of repeating parts."
+    },
+    {
+     "t": "Cellulose is a natural polymer found in plant cell walls.",
+     "d": "Paper and cotton contain lots of cellulose."
+    },
+    {
+     "t": "Rubber contains long polymer chains that can uncoil when stretched.",
+     "d": "The chains help a rubber band return toward its original shape."
+    },
+    {
+     "t": "Glass is a solid, not a liquid that slowly flows.",
+     "d": "Its particles are locked in place but lack the neat pattern of a crystal."
+    },
+    {
+     "t": "Diamond and graphite are different forms of the element carbon.",
+     "d": "Their carbon atoms are arranged differently, giving them different properties."
+    },
+    {
+     "t": "Noble gases react very little with other elements.",
+     "d": "Helium, a noble gas, is used to fill some balloons."
+    },
+    {
+     "t": "Pure water conducts electricity poorly, but dissolved ions improve conduction.",
+     "d": "Salt water conducts better because its moving ions carry electric charge."
+    }
+   ]
+  },
+  "math": {
+   "label": "Math",
+   "accent": "#a8e07a",
+   "items": [
+    {
+     "t": "To triple a number, add three copies of it.",
+     "d": "Triple 7 is 7 + 7 + 7 = 21."
+    },
+    {
+     "t": "Adding two odd numbers gives an even number.",
+     "d": "5 + 7 = 12. You can split 12 into two equal groups of 6."
+    },
+    {
+     "t": "Swap the numbers you multiply and the answer stays the same.",
+     "d": "3 rows of 4 dots make 12 dots. Turn the page sideways and you get 4 rows of 3, still 12."
+    },
+    {
+     "t": "To multiply by 9, multiply by 10 and take away one copy.",
+     "d": "9 × 7 = 10 × 7 - 7 = 70 - 7 = 63."
+    },
+    {
+     "t": "To multiply a whole number by 5, multiply by 10 and halve the result.",
+     "d": "For 5 × 14, first find 10 × 14 = 140. Half of 140 is 70."
+    },
+    {
+     "t": "A whole number is divisible by 3 if its digits add up to a multiple of 3.",
+     "d": "For 42, add 4 + 2 = 6. Since 6 is a multiple of 3, 42 divides by 3 exactly. 42 ÷ 3 = 14."
+    },
+    {
+     "t": "Fractions stay equal when you multiply the top and bottom by the same nonzero number.",
+     "d": "Multiply the 1 and 2 in 1/2 by 3. You get 3/6, which is still half."
+    },
+    {
+     "t": "To find a quarter of something, divide it into four equal parts.",
+     "d": "A quarter of 20 grapes is 20 ÷ 4 = 5 grapes."
+    },
+    {
+     "t": "A rectangle's area is its length times its width.",
+     "d": "A 6 cm by 4 cm rectangle has area 6 × 4 = 24 square centimeters."
+    },
+    {
+     "t": "For a shape with straight sides, add the side lengths to find the distance around it.",
+     "d": "A rectangle with sides 8 cm and 3 cm is 8 + 3 + 8 + 3 = 22 cm around."
+    },
+    {
+     "t": "The three angles of a triangle on flat paper always add up to 180°.",
+     "d": "With angles of 90° and 35°, the last angle is 180° - 90° - 35° = 55°."
+    },
+    {
+     "t": "A circle's diameter is twice its radius.",
+     "d": "If it's 4 cm from the center to the edge, it's 2 × 4 = 8 cm all the way across the center."
+    },
+    {
+     "t": "A prime number has exactly two positive factors: 1 and itself.",
+     "d": "Only 1 and 7 divide 7 with no leftover, so 7 is prime."
+    },
+    {
+     "t": "An average is the amount everyone would get if the total were shared equally.",
+     "d": "Three friends have 2, 4 and 9 stickers. That's 15 stickers, so the average is 15 ÷ 3 = 5."
+    },
+    {
+     "t": "To find 10 percent of a number, divide it by 10.",
+     "d": "10 percent of 80 is 80 ÷ 10 = 8."
+    },
+    {
+     "t": "To double a number, add it to itself.",
+     "d": "Double 18 is 18 + 18 = 36."
+    },
+    {
+     "t": "To halve an even whole number, split it into two equal groups.",
+     "d": "Half of 46 is 46 ÷ 2 = 23."
+    },
+    {
+     "t": "To add 9, add 10 and then subtract 1.",
+     "d": "34 + 9 = 34 + 10 - 1 = 43."
+    },
+    {
+     "t": "To add 99, add 100 and then subtract 1.",
+     "d": "256 + 99 = 256 + 100 - 1 = 355."
+    },
+    {
+     "t": "To subtract 9, subtract 10 and then add 1.",
+     "d": "52 - 9 = 52 - 10 + 1 = 43."
+    },
+    {
+     "t": "To multiply by 4, double the number twice.",
+     "d": "4 × 13 = 2 × 26 = 52."
+    },
+    {
+     "t": "To multiply by 8, double the number three times.",
+     "d": "7 becomes 14, then 28, then 56. So 8 × 7 = 56."
+    },
+    {
+     "t": "For the numbers 1 to 9, multiplying by 11 repeats the digit.",
+     "d": "11 × 6 = 66."
+    },
+    {
+     "t": "To multiply by 25, divide by 4 and multiply by 100.",
+     "d": "16 × 25 = 16 ÷ 4 × 100 = 400."
+    },
+    {
+     "t": "To multiply by 50, multiply by 100 and then halve.",
+     "d": "18 × 50 = 18 × 100 ÷ 2 = 900."
+    },
+    {
+     "t": "To divide by 5, double the number and divide by 10.",
+     "d": "85 ÷ 5 = 170 ÷ 10 = 17."
+    },
+    {
+     "t": "Dividing by 10 makes each digit worth one tenth as much.",
+     "d": "470 ÷ 10 = 47."
+    },
+    {
+     "t": "Multiplying by 10 makes each digit worth 10 times as much.",
+     "d": "63 × 10 = 630."
+    },
+    {
+     "t": "Any number multiplied by zero equals zero.",
+     "d": "8,421 × 0 = 0."
+    },
+    {
+     "t": "Multiplying a number by 1 leaves it unchanged.",
+     "d": "937 × 1 = 937."
+    },
+    {
+     "t": "You can split a multiplication into easier parts.",
+     "d": "7 × 23 = 7 × 20 + 7 × 3 = 140 + 21 = 161."
+    },
+    {
+     "t": "You can regroup numbers when adding without changing the sum.",
+     "d": "(8 + 12) + 5 = 8 + (12 + 5) = 25."
+    },
+    {
+     "t": "Addition and subtraction can undo each other.",
+     "d": "38 + 17 = 55, so 55 - 17 = 38."
+    },
+    {
+     "t": "Multiplication and division facts can form a fact family.",
+     "d": "6 × 8 = 48, 8 × 6 = 48, 48 ÷ 6 = 8, and 48 ÷ 8 = 6."
+    },
+    {
+     "t": "Rounding can give a quick estimate before exact calculation.",
+     "d": "198 + 304 is about 200 + 300 = 500. The exact sum is 502."
+    },
+    {
+     "t": "A digit's place tells how much that digit is worth.",
+     "d": "In 4,582, the 5 is worth 500."
+    },
+    {
+     "t": "Expanded form shows the value of every digit.",
+     "d": "6,304 = 6,000 + 300 + 4."
+    },
+    {
+     "t": "Compare whole numbers from their greatest place value first.",
+     "d": "5,284 > 5,249 because 8 tens is greater than 4 tens."
+    },
+    {
+     "t": "To round to the nearest ten, look at the ones digit.",
+     "d": "347 rounds to 350 because its ones digit is 7."
+    },
+    {
+     "t": "To round to the nearest hundred, look at the tens digit.",
+     "d": "3,649 rounds to 3,600 because its tens digit is 4."
+    },
+    {
+     "t": "Negative numbers are less than zero.",
+     "d": "On a number line, -3 is three steps left of 0."
+    },
+    {
+     "t": "Opposite numbers add to zero.",
+     "d": "9 + (-9) = 0."
+    },
+    {
+     "t": "Absolute value is a number's distance from zero.",
+     "d": "Both 7 and -7 are 7 steps from zero, so both have absolute value 7."
+    },
+    {
+     "t": "Parentheses tell you which calculation to do first.",
+     "d": "3 × (4 + 2) = 3 × 6 = 18."
+    },
+    {
+     "t": "An equation says that two amounts are equal.",
+     "d": "7 + 5 = 3 × 4 because both sides equal 12."
+    },
+    {
+     "t": "A whole number is divisible by 2 when its last digit is even.",
+     "d": "1,438 is divisible by 2 because its last digit is 8. 1,438 ÷ 2 = 719."
+    },
+    {
+     "t": "A whole number is divisible by 5 when it ends in 0 or 5.",
+     "d": "735 ends in 5, and 735 ÷ 5 = 147."
+    },
+    {
+     "t": "A whole number is divisible by 10 when it ends in 0.",
+     "d": "4,260 ends in 0, and 4,260 ÷ 10 = 426."
+    },
+    {
+     "t": "A number is divisible by 9 if its digits add to a multiple of 9.",
+     "d": "For 729, 7 + 2 + 9 = 18. Since 18 is a multiple of 9, 729 ÷ 9 = 81."
+    },
+    {
+     "t": "A number is divisible by 6 if it is divisible by both 2 and 3.",
+     "d": "54 is even. Its digits add to 5 + 4 = 9, so 54 is divisible by 3. So 54 ÷ 6 = 9."
+    },
+    {
+     "t": "A factor divides a whole number with no remainder.",
+     "d": "4 is a factor of 28 because 28 ÷ 4 = 7."
+    },
+    {
+     "t": "A multiple comes from multiplying a number by a whole number.",
+     "d": "35 is a multiple of 7 because 7 × 5 = 35."
+    },
+    {
+     "t": "The greatest common factor is the largest factor shared by two numbers.",
+     "d": "The greatest common factor of 18 and 24 is 6."
+    },
+    {
+     "t": "The least common multiple is the smallest positive multiple two numbers share.",
+     "d": "Multiples of 6 and 8 first meet at 24, so their least common multiple is 24."
+    },
+    {
+     "t": "A composite number has more than two positive factors.",
+     "d": "12 is composite because its factors are 1, 2, 3, 4, 6 and 12."
+    },
+    {
+     "t": "The number 1 is neither prime nor composite.",
+     "d": "It has only one positive factor, which is 1."
+    },
+    {
+     "t": "A square number is a whole number multiplied by itself.",
+     "d": "9 × 9 = 81, so 81 is a square number."
+    },
+    {
+     "t": "A cube number uses the same factor three times.",
+     "d": "3 × 3 × 3 = 27, so 27 is a cube number."
+    },
+    {
+     "t": "Odd numbers can be made by starting at 1 and adding 2 each time.",
+     "d": "1, 3, 5, 7 and 9 are the first five positive odd numbers."
+    },
+    {
+     "t": "Triangular numbers come from adding consecutive counting numbers.",
+     "d": "1 + 2 + 3 + 4 = 10, so 10 is a triangular number."
+    },
+    {
+     "t": "In the Fibonacci pattern, each new number is the sum of the previous two.",
+     "d": "Starting 1, 1, 2, 3, 5, the next number is 3 + 5 = 8."
+    },
+    {
+     "t": "An even number times any whole number is even.",
+     "d": "14 × 7 = 98, which is even."
+    },
+    {
+     "t": "An odd number times an odd number is odd.",
+     "d": "7 × 9 = 63, which is odd."
+    },
+    {
+     "t": "Consecutive whole numbers differ by 1.",
+     "d": "46 and 47 are consecutive because 47 - 46 = 1."
+    },
+    {
+     "t": "To add 1 + 2 + ... up to n, work out n × (n + 1) ÷ 2.",
+     "d": "For n = 5, 5 × 6 ÷ 2 = 15, and 1 + 2 + 3 + 4 + 5 = 15."
+    },
+    {
+     "t": "The top number of a fraction, the numerator, tells how many equal parts we count.",
+     "d": "In 3/8, the whole has 8 equal parts, and the numerator 3 means three of them are counted."
+    },
+    {
+     "t": "A proper fraction has a numerator smaller than its denominator.",
+     "d": "5/7 is proper because 5 < 7."
+    },
+    {
+     "t": "An improper fraction can be written as a mixed number.",
+     "d": "11/4 = 2 3/4 because 11 ÷ 4 gives 2 with 3 left over."
+    },
+    {
+     "t": "With equal denominators, the larger numerator makes the larger fraction.",
+     "d": "7/10 > 3/10 because 7 > 3."
+    },
+    {
+     "t": "For positive fractions with equal numerators, the smaller denominator makes the larger fraction.",
+     "d": "3/5 > 3/8 because fifths are larger than eighths."
+    },
+    {
+     "t": "Add fractions with equal denominators by adding their numerators.",
+     "d": "2/9 + 4/9 = 6/9 = 2/3."
+    },
+    {
+     "t": "Subtract fractions with equal denominators by subtracting their numerators.",
+     "d": "7/8 - 3/8 = 4/8 = 1/2."
+    },
+    {
+     "t": "To find a fraction of a number, divide by the bottom and multiply by the top.",
+     "d": "To find 3/5 of 40, calculate 40 ÷ 5 × 3 = 24."
+    },
+    {
+     "t": "A nonzero fraction times its reciprocal equals 1.",
+     "d": "4/7 × 7/4 = 28/28 = 1."
+    },
+    {
+     "t": "The first digit after a decimal point shows tenths.",
+     "d": "In 3.7, the 7 means 7/10."
+    },
+    {
+     "t": "The second digit after a decimal point shows hundredths.",
+     "d": "In 2.46, the 6 means 6/100."
+    },
+    {
+     "t": "One half equals 0.5.",
+     "d": "1 ÷ 2 = 0.5."
+    },
+    {
+     "t": "One fourth equals 0.25.",
+     "d": "1 ÷ 4 = 0.25."
+    },
+    {
+     "t": "Line up decimal points when adding decimals.",
+     "d": "3.75 + 1.20 = 4.95."
+    },
+    {
+     "t": "Fifty percent means one half.",
+     "d": "50 percent of 36 is 36 ÷ 2 = 18."
+    },
+    {
+     "t": "Twenty percent means one fifth.",
+     "d": "20 percent of 45 is 45 ÷ 5 = 9."
+    },
+    {
+     "t": "Seventy-five percent means three fourths.",
+     "d": "75 percent of 20 is 20 ÷ 4 × 3 = 15."
+    },
+    {
+     "t": "Percent means parts out of 100.",
+     "d": "32 percent = 32/100 = 8/25."
+    },
+    {
+     "t": "A ratio compares amounts using the same order each time.",
+     "d": "With 6 red beads and 3 blue beads, the red-to-blue ratio is 6:3, or 2:1."
+    },
+    {
+     "t": "Equivalent ratios come from multiplying or dividing both parts by the same number.",
+     "d": "3:5 and 12:20 are equal ratios because 3 × 4 = 12 and 5 × 4 = 20."
+    },
+    {
+     "t": "Opposite angles made by two crossing straight lines are equal.",
+     "d": "If one angle is 48°, the angle directly opposite it is also 48°."
+    },
+    {
+     "t": "An isosceles triangle has two equal sides and two equal angles.",
+     "d": "If two angles are 70° each, the third is 180° - 70° - 70° = 40°."
+    },
+    {
+     "t": "A trapezoid's area is the average of its parallel sides times its height.",
+     "d": "With parallel sides 6 cm and 10 cm and height 4 cm, its area is (6 + 10) ÷ 2 × 4 = 32 cm²."
+    },
+    {
+     "t": "A triangle's area is half its base times its height.",
+     "d": "A triangle with base 10 cm and height 6 cm has area 10 × 6 ÷ 2 = 30 cm²."
+    },
+    {
+     "t": "A parallelogram's area is its base times its perpendicular height.",
+     "d": "With base 9 cm and height 4 cm, its area is 9 × 4 = 36 cm²."
+    },
+    {
+     "t": "A right angle measures exactly 90°.",
+     "d": "A square has four 90° angles, and 4 × 90° = 360°."
+    },
+    {
+     "t": "A straight angle is 180°, and a full turn is 360°.",
+     "d": "Two straight angles make one full turn because 180° + 180° = 360°."
+    },
+    {
+     "t": "The four angles of a quadrilateral on flat paper add up to 360°.",
+     "d": "If three angles are 90°, the last is 360° - 270° = 90°."
+    },
+    {
+     "t": "Shape names can tell you how many sides they have.",
+     "d": "A pentagon has 5 sides, a hexagon has 6, and an octagon has 8."
+    },
+    {
+     "t": "A regular polygon has equal sides and equal angles.",
+     "d": "Each angle of a regular hexagon is 120°, and 6 × 120° = 720°."
+    },
+    {
+     "t": "A line of symmetry splits a shape into matching mirror halves.",
+     "d": "A square has 4 lines of symmetry."
+    },
+    {
+     "t": "Coordinates name a point using its horizontal position first.",
+     "d": "From (2, 3) to (7, 3), the horizontal distance is 7 - 2 = 5 units."
+    },
+    {
+     "t": "Congruent shapes have the same shape and the same size.",
+     "d": "Two 3 cm by 5 cm rectangles are congruent, and each has area 3 × 5 = 15 cm²."
+    },
+    {
+     "t": "Similar shapes have the same shape, but they may have different sizes.",
+     "d": "A 3 cm by 4 cm rectangle and a 6 cm by 8 cm rectangle are similar because both sides doubled."
+    },
+    {
+     "t": "In a right triangle, the two shorter sides help find the longest side.",
+     "d": "For sides 3, 4 and 5, 3² + 4² = 9 + 16 = 25 = 5²."
+    },
+    {
+     "t": "A circle's circumference equals π times its diameter.",
+     "d": "A circle with diameter 10 cm has circumference exactly 10π cm, about 31.4 cm."
+    },
+    {
+     "t": "A circle's area equals π times its radius squared.",
+     "d": "A circle with radius 3 cm has area exactly 9π cm², about 28.3 cm²."
+    },
+    {
+     "t": "One meter equals 100 centimeters.",
+     "d": "2.4 meters = 2.4 × 100 = 240 centimeters."
+    },
+    {
+     "t": "One kilometer equals 1,000 meters.",
+     "d": "3.5 kilometers = 3.5 × 1,000 = 3,500 meters."
+    },
+    {
+     "t": "One kilogram equals 1,000 grams.",
+     "d": "2.25 kilograms = 2.25 × 1,000 = 2,250 grams."
+    },
+    {
+     "t": "One liter equals 1,000 milliliters.",
+     "d": "1.5 liters = 1.5 × 1,000 = 1,500 milliliters."
+    },
+    {
+     "t": "One hour equals 60 minutes.",
+     "d": "2 hours 15 minutes = 2 × 60 + 15 = 135 minutes."
+    },
+    {
+     "t": "Elapsed time is the difference between a start time and an end time.",
+     "d": "From 2:35 to 4:05 is 1 hour 30 minutes."
+    },
+    {
+     "t": "A rectangular box's volume is length times width times height.",
+     "d": "A 5 cm by 3 cm by 2 cm box has volume 5 × 3 × 2 = 30 cm³."
+    },
+    {
+     "t": "The median is the middle value after numbers are put in order.",
+     "d": "For 2, 4, 7, 8 and 12, the median is 7."
+    },
+    {
+     "t": "For equally likely outcomes, probability is favorable outcomes divided by all outcomes.",
+     "d": "A fair die has 3 even faces out of 6, so the chance of rolling an even number is 3/6 = 1/2."
+    }
+   ]
+  },
+  "astronomy": {
+   "label": "Astronomy",
+   "accent": "#8fb4ff",
+   "items": [
+    {
+     "t": "A light-year is a distance, not a time.",
+     "d": "It is how far light travels in one year, about 9.5 trillion kilometers."
+    },
+    {
+     "t": "A parsec is a distance used by astronomers.",
+     "d": "One parsec is about 3.26 light-years."
+    },
+    {
+     "t": "Looking far into space also means looking into the past.",
+     "d": "We see a star 100 light-years away as it looked 100 years ago."
+    },
+    {
+     "t": "Stars twinkle because moving air bends their light.",
+     "d": "Earth's atmosphere makes the light shift slightly from moment to moment."
+    },
+    {
+     "t": "Planets usually twinkle less than stars.",
+     "d": "Their tiny disks of light are steadier when seen through moving air."
+    },
+    {
+     "t": "A star's color gives a clue to its surface temperature.",
+     "d": "Blue stars are hotter than red stars."
+    },
+    {
+     "t": "A star can look bright because it is powerful, close, or both.",
+     "d": "Distance changes how bright a star appears from Earth."
+    },
+    {
+     "t": "Nearly every star you can see without a telescope is in our Milky Way galaxy.",
+     "d": "Other galaxies are much farther away and usually look like faint patches."
+    },
+    {
+     "t": "A constellation is a named area of the sky with a star pattern.",
+     "d": "Its stars may be very different distances from Earth."
+    },
+    {
+     "t": "Astronomers divide the whole sky into 88 official constellations.",
+     "d": "Together, they work like a map of the sky."
+    },
+    {
+     "t": "The Northern and Southern Hemispheres see different parts of the sky.",
+     "d": "Some constellations never rise above the horizon in the other hemisphere."
+    },
+    {
+     "t": "Different constellations are easy to see in different seasons.",
+     "d": "Earth faces different directions at night as it travels around the Sun."
+    },
+    {
+     "t": "From some places on Earth, a circumpolar constellation never sets below the horizon.",
+     "d": "It seems to circle a sky pole during the night."
+    },
+    {
+     "t": "Polaris appears close to the north sky pole.",
+     "d": "In the Northern Hemisphere, it can help observers find north."
+    },
+    {
+     "t": "Polaris is not the brightest star in the night sky.",
+     "d": "Sirius appears brighter from Earth."
+    },
+    {
+     "t": "The Big Dipper is an asterism, not an official constellation.",
+     "d": "Its seven bright stars are part of Ursa Major."
+    },
+    {
+     "t": "The ecliptic is the Sun's yearly path across our sky.",
+     "d": "The Moon and planets also appear close to this path."
+    },
+    {
+     "t": "The zodiac constellations lie along the ecliptic.",
+     "d": "The Sun appears to pass in front of them during the year."
+    },
+    {
+     "t": "Moon phases repeat about every 29.5 days.",
+     "d": "This is the time from one new Moon to the next."
+    },
+    {
+     "t": "At new Moon, the Moon appears close to the Sun in our sky.",
+     "d": "Its sunlit half faces mostly away from Earth."
+    },
+    {
+     "t": "At full Moon, Earth is roughly between the Sun and Moon.",
+     "d": "The side facing Earth appears fully lit."
+    },
+    {
+     "t": "At a quarter Moon, half of the Moon's visible face looks lit.",
+     "d": "The name describes how far the Moon is through its monthly cycle."
+    },
+    {
+     "t": "A waxing Moon shows more of its lit side each night.",
+     "d": "It changes from new Moon toward full Moon."
+    },
+    {
+     "t": "A waning Moon shows less of its lit side each night.",
+     "d": "It changes from full Moon toward new Moon."
+    },
+    {
+     "t": "People around the world see the same Moon phase at the same moment.",
+     "d": "The phase may look tilted differently from different places."
+    },
+    {
+     "t": "Earthshine can faintly light the dark part of a crescent Moon.",
+     "d": "Sunlight reflects from Earth to the Moon and back to us."
+    },
+    {
+     "t": "A lunar eclipse happens when the Moon passes through Earth's shadow.",
+     "d": "Earth blocks some sunlight that would normally reach the Moon."
+    },
+    {
+     "t": "A lunar eclipse can happen only at full Moon.",
+     "d": "That is when the Moon can pass behind Earth compared with the Sun."
+    },
+    {
+     "t": "Eclipses do not happen every month because the Moon's orbit is tilted.",
+     "d": "The Moon usually passes above or below the needed line."
+    },
+    {
+     "t": "The Moon rises about 50 minutes later each day on average.",
+     "d": "Its motion around Earth changes where it appears against the stars."
+    },
+    {
+     "t": "A full Moon rises near sunset and sets near sunrise.",
+     "d": "It appears roughly opposite the Sun in the sky."
+    },
+    {
+     "t": "The Moon looks about half a degree wide in the sky.",
+     "d": "Your little finger at arm's length can cover it easily."
+    },
+    {
+     "t": "The Moon illusion makes a low Moon look larger than a high Moon.",
+     "d": "Its actual size in the sky changes very little during one night."
+    },
+    {
+     "t": "The bright side of the Moon always points toward the Sun.",
+     "d": "Even when the Sun is below the horizon, this can reveal its direction."
+    },
+    {
+     "t": "The Sun's faint outer atmosphere is called the corona.",
+     "d": "It becomes visible around the blocked Sun during a total solar eclipse."
+    },
+    {
+     "t": "Stars make energy by squeezing hydrogen together to make helium.",
+     "d": "This process is called nuclear fusion."
+    },
+    {
+     "t": "A stable star balances two effects.",
+     "d": "Gravity pulls inward while hot gas and radiation push outward."
+    },
+    {
+     "t": "Stars begin inside cold clouds of gas and dust.",
+     "d": "Gravity can pull parts of a cloud together into dense clumps."
+    },
+    {
+     "t": "A protostar is a young, warming clump that may become a star.",
+     "d": "It becomes a star when fusion begins in its center."
+    },
+    {
+     "t": "Stars spend most of their lives in the main sequence stage.",
+     "d": "During this stage, they fuse hydrogen into helium."
+    },
+    {
+     "t": "A star's mass strongly affects how its life unfolds.",
+     "d": "Mass changes its temperature, brightness and lifetime."
+    },
+    {
+     "t": "Massive stars use their fuel faster than smaller stars.",
+     "d": "Although they have more fuel, they usually have shorter lives."
+    },
+    {
+     "t": "A red giant is a star whose outer layers have greatly expanded.",
+     "d": "Its surface cools as the star grows larger."
+    },
+    {
+     "t": "A Sun-like star can leave behind a white dwarf.",
+     "d": "A white dwarf is the hot, dense core left after outer gas drifts away."
+    },
+    {
+     "t": "A white dwarf can hold about a star's mass in an Earth-sized sphere.",
+     "d": "Its matter is packed extremely tightly."
+    },
+    {
+     "t": "Some massive stars finish with a brilliant explosion called a supernova.",
+     "d": "The blast can scatter newly made elements into space."
+    },
+    {
+     "t": "A neutron star is the crushed core left by some supernovas.",
+     "d": "It packs more mass than the Sun into a sphere about the size of a city."
+    },
+    {
+     "t": "A pulsar is a spinning neutron star that sends out beams.",
+     "d": "The beams can appear as regular pulses when they sweep past Earth."
+    },
+    {
+     "t": "A black hole has a boundary called an event horizon.",
+     "d": "Past this boundary, not even light can escape."
+    },
+    {
+     "t": "Black holes do not pull in everything around them like vacuum cleaners.",
+     "d": "Far away, their gravity acts like the gravity of any object with the same mass."
+    },
+    {
+     "t": "A binary star system contains two stars orbiting each other.",
+     "d": "Many stars are members of pairs or larger groups."
+    },
+    {
+     "t": "In an eclipsing binary, one star regularly passes in front of the other.",
+     "d": "The system's combined light dims in a repeating pattern."
+    },
+    {
+     "t": "A variable star changes in brightness over time.",
+     "d": "It may swell, shrink, pulse, or be partly blocked by a companion."
+    },
+    {
+     "t": "An open cluster is a loose group of stars born from one cloud.",
+     "d": "Open clusters are often found in a galaxy's disk."
+    },
+    {
+     "t": "A globular cluster is a crowded, round group of old stars.",
+     "d": "Some contain hundreds of thousands of stars."
+    },
+    {
+     "t": "A nebula is a cloud of gas and dust in space.",
+     "d": "Some nebulae form stars, while others contain material shed by stars."
+    },
+    {
+     "t": "An emission nebula glows because nearby hot stars energize its gas.",
+     "d": "The Orion Nebula is a well-known example."
+    },
+    {
+     "t": "A reflection nebula shines by scattering nearby starlight.",
+     "d": "Its gas and dust do not make their own visible light."
+    },
+    {
+     "t": "A dark nebula blocks light from stars behind it.",
+     "d": "It can look like a dark shape against a bright background."
+    },
+    {
+     "t": "Stars formed much of the carbon and oxygen found in the universe.",
+     "d": "Stellar processes build elements from lighter particles."
+    },
+    {
+     "t": "A star's spectrum can reveal which elements are in its atmosphere.",
+     "d": "Each element leaves a special pattern of lines in the light."
+    },
+    {
+     "t": "A brown dwarf is not massive enough for steady hydrogen fusion.",
+     "d": "It is more massive than a planet but less massive than a true star."
+    },
+    {
+     "t": "A spiral galaxy has a flat disk, a central bulge and winding arms.",
+     "d": "Its arms often contain gas, dust and young stars."
+    },
+    {
+     "t": "An elliptical galaxy looks round or oval.",
+     "d": "It usually has less cool gas and dust than a spiral galaxy."
+    },
+    {
+     "t": "An irregular galaxy has no simple spiral or oval shape.",
+     "d": "Gravity from nearby galaxies can help distort its form."
+    },
+    {
+     "t": "The Milky Way belongs to a group of galaxies called the Local Group.",
+     "d": "The group includes the Andromeda Galaxy and dozens of smaller galaxies."
+    },
+    {
+     "t": "The Andromeda Galaxy is about 2.5 million light-years away.",
+     "d": "Under a dark sky, it can be seen without a telescope as a faint smudge."
+    },
+    {
+     "t": "The center of the Milky Way lies toward the constellation Sagittarius.",
+     "d": "Thick dust clouds hide much of it from visible-light telescopes."
+    },
+    {
+     "t": "Infrared and radio waves can pass through some space dust.",
+     "d": "They help astronomers study regions hidden from visible light."
+    },
+    {
+     "t": "A supermassive black hole sits at the center of the Milky Way.",
+     "d": "It is called Sagittarius A* and has about four million Suns of mass."
+    },
+    {
+     "t": "Galaxies gather into groups and clusters because of gravity.",
+     "d": "Clusters can contain hundreds or thousands of galaxies."
+    },
+    {
+     "t": "The universe is expanding.",
+     "d": "On very large scales, the space between distant galaxy groups grows."
+    },
+    {
+     "t": "Light from many distant galaxies is shifted toward redder wavelengths.",
+     "d": "This redshift helps show that the universe is expanding."
+    },
+    {
+     "t": "The universe is about 13.8 billion years old.",
+     "d": "Astronomers estimate this using expansion and ancient light."
+    },
+    {
+     "t": "The cosmic microwave background is faint light from the early universe.",
+     "d": "It now reaches us mostly as microwaves from every direction."
+    },
+    {
+     "t": "A quasar is a brilliant center of a distant galaxy.",
+     "d": "Gas falling toward a supermassive black hole releases enormous energy."
+    },
+    {
+     "t": "An asteroid is a rocky or metallic object that orbits the Sun.",
+     "d": "Asteroids are much smaller than planets."
+    },
+    {
+     "t": "Most known asteroids orbit in a belt between Mars and Jupiter.",
+     "d": "Jupiter's gravity helped stop them from joining into one planet."
+    },
+    {
+     "t": "Asteroids in the main belt are usually far apart.",
+     "d": "A spacecraft can cross the belt without weaving through crowded rocks."
+    },
+    {
+     "t": "A comet has a nucleus made of ice, dust and rock.",
+     "d": "Its frozen materials warm as the comet approaches the Sun."
+    },
+    {
+     "t": "A comet can grow a glowing cloud and tails near the Sun.",
+     "d": "The cloud around its nucleus is called a coma."
+    },
+    {
+     "t": "A comet's tails point mostly away from the Sun.",
+     "d": "Sunlight and the solar wind push material outward."
+    },
+    {
+     "t": "A comet may have a curved dust tail and a straighter ion tail.",
+     "d": "The two tails respond differently to sunlight and the solar wind."
+    },
+    {
+     "t": "Many comets travel around the Sun on long, stretched orbits.",
+     "d": "Some return after a few years, while others take centuries."
+    },
+    {
+     "t": "A meteoroid is a small natural rock or metal object in space.",
+     "d": "Many are fragments of asteroids or comets."
+    },
+    {
+     "t": "A meteor is the streak of light made by a meteoroid entering our atmosphere.",
+     "d": "Air heats the object and the gas around it until they glow."
+    },
+    {
+     "t": "A meteorite is a piece of space rock that reaches the ground.",
+     "d": "It is what remains after passing through the atmosphere."
+    },
+    {
+     "t": "Meteor showers often happen when Earth crosses a comet's dusty trail.",
+     "d": "Many tiny particles enter the atmosphere during the same nights each year."
+    },
+    {
+     "t": "Meteors in a shower seem to spread from one point in the sky.",
+     "d": "This is a perspective effect, like parallel tracks seeming to meet far away."
+    },
+    {
+     "t": "A refracting telescope gathers and focuses light with lenses.",
+     "d": "Its main lens sits at the front of the telescope tube."
+    },
+    {
+     "t": "A reflecting telescope gathers and focuses light with mirrors.",
+     "d": "Many large research telescopes use curved mirrors."
+    },
+    {
+     "t": "A telescope's aperture is the width of its main lens or mirror.",
+     "d": "A wider aperture collects more light and reveals fainter objects."
+    },
+    {
+     "t": "A larger telescope can separate finer details than a smaller one.",
+     "d": "This ability is called resolution."
+    },
+    {
+     "t": "Radio telescopes detect radio waves from space.",
+     "d": "They can use large dishes or groups of antennas working together."
+    },
+    {
+     "t": "Space telescopes observe above Earth's atmosphere.",
+     "d": "They avoid clouds and the atmosphere's blurring of starlight."
+    },
+    {
+     "t": "Adaptive optics helps ground telescopes correct atmospheric blur.",
+     "d": "A mirror changes shape rapidly to sharpen the view."
+    },
+    {
+     "t": "Binoculars can reveal more night-sky objects than unaided eyes.",
+     "d": "They gather extra light and show a wide area of sky."
+    },
+    {
+     "t": "Eyes need time to adjust to darkness.",
+     "d": "After about 20 to 30 minutes, faint stars can become easier to see."
+    }
+   ]
+  },
+  "space": {
+   "label": "Space",
+   "accent": "#b9a6ff",
+   "items": [
+    {
+     "t": "The Sun is a star.",
+     "d": "It looks much bigger than other stars because it is much closer to Earth."
+    },
+    {
+     "t": "Sunlight takes about 8 minutes to reach Earth.",
+     "d": "In empty space, light travels about 300,000 kilometers in one second."
+    },
+    {
+     "t": "Earth takes about a year to go around the Sun.",
+     "d": "Earth spins as it travels, so different places get daylight at different times."
+    },
+    {
+     "t": "The Moon shines by reflecting sunlight.",
+     "d": "As the Moon goes around Earth, we see different amounts of its sunny side."
+    },
+    {
+     "t": "The Moon spins once in about the same time it takes to go around Earth.",
+     "d": "That is why we see nearly the same side of the Moon from Earth all the time."
+    },
+    {
+     "t": "A solar eclipse happens when the Moon blocks some of the Sun's light from reaching Earth.",
+     "d": "People in the Moon's shadow can see the Sun partly or fully covered."
+    },
+    {
+     "t": "Mercury is the closest planet to the Sun.",
+     "d": "It takes about 88 Earth days to go around the Sun once."
+    },
+    {
+     "t": "Venus takes longer to spin once than it takes to go around the Sun.",
+     "d": "One spin takes about 243 Earth days. One trip around the Sun takes about 225."
+    },
+    {
+     "t": "Mars owes much of its red color to rusty dust.",
+     "d": "Some of the iron in its rocks and dust has reacted with oxygen, like rust on an old bike."
+    },
+    {
+     "t": "Mars has two small moons.",
+     "d": "Their names are Phobos and Deimos."
+    },
+    {
+     "t": "Jupiter is the biggest planet in our solar system.",
+     "d": "The Great Red Spot you can see in pictures of Jupiter is a huge storm."
+    },
+    {
+     "t": "Saturn's rings are made mostly of pieces of ice.",
+     "d": "The pieces stay in motion, circling Saturn."
+    },
+    {
+     "t": "Uranus spins almost on its side.",
+     "d": "Picture a spinning top that keeps spinning while tipped almost all the way over."
+    },
+    {
+     "t": "Neptune takes about 165 Earth years to circle the Sun.",
+     "d": "It is the farthest of the eight planets from the Sun."
+    },
+    {
+     "t": "We live in a galaxy called the Milky Way.",
+     "d": "A galaxy is a huge group of stars, gas and dust held together by gravity."
+    }
+   ]
+  },
+  "animals": {
+   "label": "Animals and birds",
+   "accent": "#ff93b4",
+   "items": [
+    {
+     "t": "Penguins use their wings like flippers.",
+     "d": "They flap them underwater to swim after food."
+    },
+    {
+     "t": "American flamingos get their pink color from their food.",
+     "d": "Tiny algae and small animals they eat contain pigments, which give their feathers color."
+    },
+    {
+     "t": "Bats are the only mammals that can fly by flapping their wings.",
+     "d": "Flying squirrels glide, like a paper plane."
+    },
+    {
+     "t": "Dolphins come to the surface for air.",
+     "d": "They breathe through a blowhole on top of the head."
+    },
+    {
+     "t": "Male humpback whales sing long songs.",
+     "d": "Their songs repeat groups of sounds and can be heard underwater."
+    },
+    {
+     "t": "An elephant uses its trunk to pick up food.",
+     "d": "Its trunk is a long nose that can grab a meal and carry it to its mouth."
+    },
+    {
+     "t": "A butterfly starts life as an egg.",
+     "d": "It hatches as a caterpillar, then changes inside a chrysalis before coming out as a butterfly."
+    },
+    {
+     "t": "Spiders have eight legs. Insects have six.",
+     "d": "A ladybug may look a bit like a tiny spider, but it has six legs."
+    },
+    {
+     "t": "Female sea turtles lay their eggs on land.",
+     "d": "They dig a nest in the sand and cover the eggs before going back to sea."
+    },
+    {
+     "t": "A kangaroo joey finishes much of its early growth in a pouch.",
+     "d": "The newborn climbs into its mother's pouch, where it drinks milk."
+    },
+    {
+     "t": "Crocodiles lay eggs and can guard their nests.",
+     "d": "A mother crocodile may even carry her hatchlings to water in her mouth."
+    },
+    {
+     "t": "Beavers build dams from sticks, mud and other things they find.",
+     "d": "A dam slows a stream and can make a pond behind it."
+    },
+    {
+     "t": "An ostrich can run fast, but it cannot fly.",
+     "d": "It has long, strong legs that help it take big steps."
+    },
+    {
+     "t": "A male seahorse carries the young before they are born.",
+     "d": "The female puts her eggs into a pouch on the male. The young grow there until he gives birth."
+    },
+    {
+     "t": "Polar bears have black skin under their fur.",
+     "d": "Their fur looks white, which helps them blend in with snow and ice."
+    }
+   ]
+  },
+  "learn": {
+   "label": "Did you know?",
+   "accent": "#ffad66",
+   "items": [
+    {
+     "t": "Your smallest bones are inside your ears.",
+     "d": "These tiny bones help pass vibrations from your eardrum to the inner ear."
+    },
+    {
+     "t": "Your pupil is the opening in the middle of your eye.",
+     "d": "It usually gets bigger in dim light to let more light in."
+    },
+    {
+     "t": "Your heart is a pump made of muscle.",
+     "d": "Every beat pushes blood through your body."
+    },
+    {
+     "t": "When you breathe in, oxygen from the air can pass into your blood.",
+     "d": "It passes through the walls of tiny air sacs in your lungs."
+    },
+    {
+     "t": "Your tongue and nose work together when you taste food.",
+     "d": "When you have a stuffy nose, food may seem to have less flavor."
+    },
+    {
+     "t": "The equator is an imaginary line around the middle of Earth.",
+     "d": "It divides Earth into the Northern Hemisphere and the Southern Hemisphere."
+    },
+    {
+     "t": "The Pacific Ocean is Earth's largest ocean.",
+     "d": "It lies between Asia and Australia on one side and the Americas on the other."
+    },
+    {
+     "t": "The South Pole sits in Antarctica.",
+     "d": "At the South Pole, a thick sheet of ice covers the land."
+    },
+    {
+     "t": "A map scale helps you work out real distances.",
+     "d": "If 1 centimeter on a map stands for 1 kilometer, 3 centimeters stand for 3 kilometers."
+    },
+    {
+     "t": "An island is a piece of land surrounded by water.",
+     "d": "An island can sit in a lake or river as well as in the ocean."
+    },
+    {
+     "t": "Word of the day: nocturnal.",
+     "d": "A nocturnal animal is active at night. A barn owl often hunts after dark."
+    },
+    {
+     "t": "Word of the day: peninsula.",
+     "d": "A peninsula is land with water around most of it. Much of Florida sits between the Gulf and the Atlantic Ocean."
+    },
+    {
+     "t": "Word of the day: palindrome.",
+     "d": "A palindrome reads the same forward and backward. Try it with the word level."
+    },
+    {
+     "t": "Word of the day: transparent.",
+     "d": "If something is transparent, you can see clearly through it, like through clean window glass."
+    },
+    {
+     "t": "Word of the day: migrate.",
+     "d": "To migrate is to move from one place to another. Many birds do this as the seasons change."
+    }
+   ]
   }
+ }
 }
