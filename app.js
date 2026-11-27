@@ -463,6 +463,7 @@
     clearTimeout(sleepFadeTimer);
     clearStage();
     asleep = false;
+    paused = false;
     stage.classList.remove("is-asleep");
     requestWakeLock();
     if (pendingEntry) {
